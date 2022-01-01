@@ -1,17 +1,18 @@
 import Particles from "react-tsparticles";
-import logo from './img/nave.png';
+import logo from './img/logo-responsive.svg';
+import Slogan from './img/we-go-beyond.svg';
 import './scss/index.scss';
 
 function App() {
   const particlesInit = (main) => {
     console.log(main);
-
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   };
 
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
   return (
     <div className="App">
       <section className="background-a">
@@ -140,21 +141,16 @@ function App() {
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo go-pharma" />
+        <img src={Slogan} className="slogan-img" alt="we go beyons the horizon" />
 
-        <a
-          className="App-link"
-          href="https://go-pharma.mx/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go Pharma
-        </a>
-        <p>
 
-          LA AGENCIA QUE VA CONTIGO
-
-        </p>
       </header>
+      <section className="section">
+        <div className="contenedor">
+          <h2>Servicios</h2>
+        </div>
+      </section>
+
     </div>
   );
 }
