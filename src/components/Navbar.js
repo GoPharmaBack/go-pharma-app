@@ -73,18 +73,18 @@ function Navbar() {
         >
           <li> Contacto </li>
         </Link>
-        <ExternalLink href="https://www.instagram.com/perrodimensional/">
+        <ExternalLink href="https://www.instagram.com/gopharmamx/">
           <li>
             <FaIcons.FaInstagram />
           </li>
         </ExternalLink>
-        <ExternalLink href="https://github.com/crbzxy">
+        <ExternalLink href="https://www.facebook.com/gopharmamx/">
           <li>
             <FaIcons.FaFacebook />
           </li>
         </ExternalLink>
 
-        <ExternalLink href="https://github.com/crbzxy">
+        <ExternalLink href="https://www.linkedin.com/company/marketing-and-media-go-pharma/">
           <li>
             <FaIcons.FaLinkedin />
           </li>
