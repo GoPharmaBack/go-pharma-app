@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Particles from "react-tsparticles";
 import './scss/index.scss';
 import GeneralRouter from './Routes/GeneralRouter';
@@ -12,6 +12,12 @@ function App() {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
+  useEffect(() => {
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    }
+  }, []);
 
   return (
     <div className="App">
@@ -94,7 +100,7 @@ function App() {
                 enable: false,
               },
               collisions: {
-                enable: false,
+                enable: true,
               },
               move: {
                 angle: {

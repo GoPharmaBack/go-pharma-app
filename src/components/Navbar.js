@@ -49,7 +49,7 @@ function Navbar() {
 
       </Link>
       <ul className={click ? "navbar_menu active " : "navbar_menu"}>
-        <Link to="/" className="navbar_menu_link" onClick={closeMobileMenu}>
+        <Link to="/" className="navbar_menu_link home-icon" onClick={closeMobileMenu}>
           <FaIcons.FaHome />
         </Link>
         <Link to="/work" className="navbar_menu_link" onClick={closeMobileMenu}>

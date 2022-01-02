@@ -5,6 +5,7 @@ $App1: #533278;
 @import "./components/Navbar";
 
 body {
+  height: 100%;
   position: relative;
   background: linear-gradient(#2b104b, #260b40, #1b0831);
 }
@@ -139,4 +140,12 @@ section.section {
 
 span {
   color: #c190f8 !important;
+}
+
+.home-icon {
+  display: none !important;
+
+  @include tablet {
+    display: block;
+  }
 }

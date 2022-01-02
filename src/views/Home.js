@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react'
-import { gsap } from "gsap"
+
 
 import logo from '../img/logo-responsive.svg';
 import Slogan from '../img/we-go-beyond.svg';
 import '../scss/index.scss';
-
+import { gsap } from "gsap"
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
 
@@ -16,6 +18,25 @@ function Home() {
       ease: 'ease-in',
     });
 
+
+
+  }, [])
+
+  useEffect(() => {
+    gsap.from('.section', {
+      duration: 1.6,
+      y: '-100',
+      opacity: 0,
+      ease: 'ease-in-out',
+      scrollTrigger: {
+        trigger: '.contenedor',
+
+        start: 'bottom 90%',
+        end: 'bottom 6%',
+        toggleActions: 'restart complete reverse reset',
+        //options: play, pause, resume, reset, restart, complete, reverse,none
+      },
+    });
   }, [])
   return (
     <div className="App">
