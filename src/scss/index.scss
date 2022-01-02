@@ -2,8 +2,10 @@ $App1: #533278;
 @import "./libs/mixins";
 @import "./libs/variables";
 @import './libs/type';
+@import "./components/Navbar";
 
 body {
+  position: relative;
   background: linear-gradient(#2b104b, #260b40, #1b0831);
 }
 
@@ -114,21 +116,27 @@ body {
 }
 
 section.section {
+  height: 100%;
   min-height: 100vh;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  opacity: 1;
   padding: 1rem 1rem;
   box-sizing: border-box;
 }
 
 .contenedor {
+  height: 100%;
   margin: auto;
   max-width: 1080px;
   text-align: left;
   color: white;
   display: flex;
   flex-flow: column;
+}
+
+span {
+  color: #c190f8 !important;
 }

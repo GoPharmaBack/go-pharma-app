@@ -1,7 +1,7 @@
+import React from 'react';
 import Particles from "react-tsparticles";
-import logo from './img/logo-responsive.svg';
-import Slogan from './img/we-go-beyond.svg';
 import './scss/index.scss';
+import GeneralRouter from './Routes/GeneralRouter';
 
 function App() {
   const particlesInit = (main) => {
@@ -139,18 +139,7 @@ function App() {
         />
       </section>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo go-pharma" />
-        <img src={Slogan} className="slogan-img" alt="we go beyons the horizon" />
-
-
-      </header>
-      <section className="section">
-        <div className="contenedor">
-          <h1>Go-Pharma</h1>
-          <h2>Somos una agencia de CONSULTORÍA, MKT & MEDIA especializada en el mercado PHARMA y el sector SALUD. Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a RESULTADOS.</h2>
-        </div>
-      </section>
+      <GeneralRouter />
 
     </div>
   );
