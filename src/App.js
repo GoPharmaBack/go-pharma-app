@@ -147,7 +147,8 @@ function App() {
       </header>
       <section className="section">
         <div className="contenedor">
-          <h2>Servicios</h2>
+          <h1>Go-Pharma</h1>
+          <h2>Somos una agencia de CONSULTORÍA, MKT & MEDIA especializada en el mercado PHARMA y el sector SALUD. Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a RESULTADOS.</h2>
         </div>
       </section>
 
