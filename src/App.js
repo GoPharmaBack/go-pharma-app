@@ -29,6 +29,7 @@ function App() {
           options={{
 
             fpsLimit: 60,
+            destroyed: false,
             interactivity: {
               events: {
                 onClick: {
