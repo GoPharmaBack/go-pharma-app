@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 
-
+import { Link } from "react-router-dom";
 import logo from '../img/logo-responsive.svg';
 import Slogan from '../img/we-go-beyond.svg';
 import '../scss/index.scss';
@@ -114,6 +114,13 @@ function Home() {
         </div>
 
 
+      </section>
+
+      <section data-aos="fade-up" className="section">
+        <div className="contenedor">
+          <h5>Nos encantaría colaborar contigo.</h5>
+          <Link to="/contacto" className="btn-primario"> Contáctanos</Link>
+        </div>
       </section>
 
     </>
