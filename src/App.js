@@ -108,8 +108,8 @@ function App() {
                   offset: 10,
                 },
                 enable: true,
-                speed: 0.3,
-                direction: "left",
+                speed: 0.2,
+
                 random: true,
                 straight: true,
                 outModes: {
@@ -136,7 +136,7 @@ function App() {
               },
               size: {
                 random: true,
-                value: 0.3,
+                value: 0.7,
               },
 
             },
