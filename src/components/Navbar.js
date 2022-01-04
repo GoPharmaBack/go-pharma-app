@@ -4,7 +4,8 @@ import { ExternalLink } from "react-external-link";
 import * as FaIcons from "react-icons/fa";
 import Logo from '../img/logo.svg';
 //import Logo from "../../img/logo.png";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -32,11 +33,24 @@ function Navbar() {
 
 
 
+  useEffect(() => {
+
+    AOS.init({
+      offset: 120,
+      delay: 20,
+      duration: 500,
+      easing: 'ease-in-out',
+      debounceDelay: 50,
+      throttleDelay: 99,
+      mirror: false,
+      anchorPlacement: 'bottom-top',
+    });
+  }, [])
 
 
 
   return (
-    <nav id="navScr" className="navbar ">
+    <nav id="navScr" className="navbar " data-aos="fade-in">
       <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
         <img src={Logo} alt="go-pharma" />
 
