@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-
 import { Link } from "react-router-dom";
 import logo from '../img/logo-responsive.svg';
 import Slogan from '../img/we-go-beyond.svg';
@@ -36,7 +35,7 @@ function Home() {
     <>
 
 
-      <header data-aos="fade-in" className="App-header">
+      <header data-aos="fade-in" className="App-header-hero">
         <img src={logo} className="App-logo" alt="logo go-pharma" />
         <img src={Slogan} className="slogan-img" alt="we go beyons the horizon" />
       </header>

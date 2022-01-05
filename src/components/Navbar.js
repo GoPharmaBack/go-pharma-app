@@ -62,7 +62,7 @@ function Navbar() {
         <Link to="/work" className="navbar_menu_link" onClick={closeMobileMenu}>
           <li> Nosotros </li> {/* {dropdown && <Dropdown />} */}
         </Link>
-        <Link to="/about" className="navbar_menu_link" onClick={closeMobileMenu}>
+        <Link to="/servicios" className="navbar_menu_link" onClick={closeMobileMenu}>
           <li> Servicios </li>
         </Link>
 
