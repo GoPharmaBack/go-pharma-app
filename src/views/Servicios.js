@@ -6,7 +6,7 @@ function Servicios() {
     <section className="section background" >
       <div className="contenedor servicios">
         <header data-aos="fade-in">
-          <h1>Nusestros Servicios</h1>
+          <h1>Portafolio de servicios 360</h1>
           <p>ALINEADOS Y ENFOCADOS EN LOS OBJETIVOS DE NUESTROS SOCIOS COMERCIALES. </p>
           <Link className="btn-primario" to="/">Contáctanos</Link>
         </header>
