@@ -115,7 +115,7 @@ function Home() {
 
       </section>
 
-      <section data-aos="fade-up" className="section">
+      <section data-aos="fade-up" className="section background">
         <div className="contenedor">
           <h5>Nos encantaría colaborar contigo.</h5>
           <Link to="/contacto" className="btn-primario"> Contáctanos</Link>

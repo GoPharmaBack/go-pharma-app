@@ -79,7 +79,7 @@ function App() {
                 },
                 "modes": {
                   "attract": {
-                    "distance": 200,
+                    "distance": 100,
                     "duration": 0.4,
                     "easing": "ease-out-quad",
                     "factor": 1,
@@ -87,10 +87,10 @@ function App() {
                     "speed": 1
                   },
                   "bounce": {
-                    "distance": 200
+                    "distance": 100
                   },
                   "bubble": {
-                    "distance": 250,
+                    "distance": 50,
                     "duration": 2,
                     "mix": false,
                     "opacity": 0,

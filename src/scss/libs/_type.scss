@@ -68,7 +68,10 @@ small,
 }
 
 .titulo {
+  align-self: start;
+  text-align: left !important;
+  text-transform: uppercase;
   color: #b499ff;
-  font-size: 1em;
+  font-size: calc(0.2rem + 1.2vw);
   font-weight: bold;
 }
