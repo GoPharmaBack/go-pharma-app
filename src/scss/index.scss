@@ -19,11 +19,13 @@ $App1: #533278;
   border: 2px solid rgba(149, 57, 235, 0.452);
   border-radius: 100%;
   transform: translate(-50%, -50%);
-  transition-duration: 30ms;
-  transition-timing-function: ease-in-out;
-  will-change: width, height, transform, border;
+
   z-index: 999;
   pointer-events: none;
+
+  @include phone {
+    display: none;
+  }
 }
 
 .dot {
@@ -32,11 +34,15 @@ $App1: #533278;
   left: 50%;
   width: 8px;
   height: 8px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.808);
   border-radius: 100%;
   transform: translate(-50%, -50%);
   z-index: 999;
   pointer-events: none;
+
+  @include phone {
+    display: none;
+  }
 }
 
 body {
