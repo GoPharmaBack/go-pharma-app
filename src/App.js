@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Particles from "react-tsparticles";
+
 import './scss/index.scss';
 import GeneralRouter from './Routes/GeneralRouter';
-
+import DotRing from "./components/dot/DotRing";
+import { MouseContext } from "./context/mouse-context";
 function App() {
+  const { cursorChangeHandler } = useContext(MouseContext);
   const particlesInit = (main) => {
     console.log(main);
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -16,7 +19,11 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App"
+      onMouseEnter={() => cursorChangeHandler("hovered")}
+      onMouseLeave={() => cursorChangeHandler("")}>
+
+      <DotRing />
       <section className="background-a">
         <Particles
           id="tsparticles"

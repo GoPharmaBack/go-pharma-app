@@ -24,7 +24,9 @@ h2,
 h3,
 h4,
 h5 {
-  color: #b499ff;
+  background: -webkit-linear-gradient(#b88ef0, #54238d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 3rem 0 1.38rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -34,13 +36,17 @@ h5 {
 h1 {
 
   margin: 0;
-  font-size: 5vh;
+  font-size: calc(1rem + 2.6vw);
+
 
 }
 
 h2,
 .h2 {
-  color: white;
+  background: #cbbcf5;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white !important;
   font-size: 3.5vh;
   font-weight: 600;
 }
@@ -51,7 +57,7 @@ h3 {
 
 h4 {
 
-  margin: 1rem;
+
   font-size: 2.563rem;
 }
 

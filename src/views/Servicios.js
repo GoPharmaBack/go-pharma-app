@@ -5,10 +5,17 @@ function Servicios() {
   return (
     <section className="section background" >
       <div className="contenedor servicios">
-        <header data-aos="fade-in">
-          <h1>Nusestros Servicios</h1>
-          <p>ALINEADOS Y ENFOCADOS EN LOS OBJETIVOS DE NUESTROS SOCIOS COMERCIALES. </p>
-          <Link className="btn-primario" to="/">Contáctanos</Link>
+        <header className='header-servicios' data-aos="fade-in">
+          <div className="contenedor">
+            <div className="texto">
+              <h1>
+                Portafolio de Servicios 360°
+              </h1>
+              <p>ALINEADOS Y ENFOCADOS EN LOS OBJETIVOS DE NUESTROS SOCIOS COMERCIALES. </p>
+              <br />
+              <Link className="btn-primario" to="/">Contáctanos</Link>
+            </div>
+          </div>
         </header>
         <div className="servicios-contenedor">
           <div className="servicio" data-aos="fade-in">
