@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Imagen from "../img/DigitalMKTPharma.png"
+
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+
 function Servicios() {
   return (
     <section className="section background" >
@@ -17,7 +21,7 @@ function Servicios() {
             </div>
           </div>
         </header>
-        <div className="servicios-contenedor">
+        <div className="servicios-contenedor" data-aos="fade-in">
           <div className="servicio" data-aos="fade-in">
             <img src={Imagen} alt="servicio" />
             <p className="titulo">Market Research</p>

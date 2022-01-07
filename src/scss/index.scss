@@ -608,3 +608,13 @@ iframe {
   }
 
 }
+
+.active-nav {
+  color: #9d61f1 !important;
+}
+
+.playlist {
+  position: relative;
+  display: flex;
+  z-index: 1 !important;
+}

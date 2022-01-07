@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 import { ExternalLink } from "react-external-link";
 import * as FaIcons from "react-icons/fa";
 import Logo from '../img/logo.svg';
@@ -51,35 +51,35 @@ function Navbar() {
 
   return (
     <nav id="navScr" className="navbar " data-aos="fade-in">
-      <Link to="/" className="navbar_logo" onClick={closeMobileMenu}>
+      <NavLink to="/" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
         <img src={Logo} alt="go-pharma" />
 
-      </Link>
+      </NavLink>
       <ul className={click ? "navbar_menu active " : "navbar_menu"}>
-        <Link to="/" className="navbar_menu_link home-icon" onClick={closeMobileMenu}>
+        <NavLink to="/" className="navbar_menu_link home-icon" onClick={closeMobileMenu}>
           <FaIcons.FaHome />
-        </Link>
-        <Link to="/work" className="navbar_menu_link" onClick={closeMobileMenu}>
+        </NavLink>
+        <NavLink to="/nosotros" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
           <li> Nosotros </li> {/* {dropdown && <Dropdown />} */}
-        </Link>
-        <Link to="/servicios" className="navbar_menu_link" onClick={closeMobileMenu}>
+        </NavLink>
+        <NavLink to="/servicios" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
           <li> Servicios </li>
-        </Link>
+        </NavLink>
 
-        <Link
+        <NavLink
           to="/resume-design"
-          className="navbar_menu_button navbar_menu_link"
+          className={({ isActive }) => isActive ? 'active-nav' : ''}
           onClick={closeMobileMenu}
         >
           <li> Socios Comerciales </li>
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/contact"
-          className="navbar_menu_button navbar_menu_link"
+          className={({ isActive }) => isActive ? 'active-nav' : ''}
           onClick={closeMobileMenu}
         >
           <li> Contacto </li>
-        </Link>
+        </NavLink>
         <ExternalLink href="https://www.instagram.com/gopharmamx/">
           <li>
             <FaIcons.FaInstagram />
