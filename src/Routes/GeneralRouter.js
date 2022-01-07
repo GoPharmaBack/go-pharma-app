@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import Error404 from "../views/Error404"
 import Servicios from "../views/Servicios"
 import Nosotros from "../views/Nosotros"
+import Socios from "../views/Socios"
 import { useLayoutEffect } from 'react'
 
 const Wrapper = ({ children }) => {
@@ -27,6 +28,7 @@ function GeneralRouter() {
             <Route path='*' element={<Error404 />} />
             <Route path='/servicios' element={<Servicios />} />
             <Route path='/nosotros' element={<Nosotros />} />
+            <Route path='/socios-comerciales' element={<Socios />} />
             {/* <Route path='*' element={<Error404 />} /> */}
           </Routes>
         </Wrapper>

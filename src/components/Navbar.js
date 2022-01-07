@@ -67,14 +67,14 @@ function Navbar() {
         </NavLink>
 
         <NavLink
-          to="/resume-design"
+          to="/socios-comerciales"
           className={({ isActive }) => isActive ? 'active-nav' : ''}
           onClick={closeMobileMenu}
         >
           <li> Socios Comerciales </li>
         </NavLink>
         <NavLink
-          to="/contact"
+          to="/contacto"
           className={({ isActive }) => isActive ? 'active-nav' : ''}
           onClick={closeMobileMenu}
         >
