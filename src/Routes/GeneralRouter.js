@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Home from '../views/Home'
 import Navbar from "../components/Navbar"
+import Footer from '../components/Footer'
 import Error404 from "../views/Error404"
 import Servicios from "../views/Servicios"
 import Nosotros from "../views/Nosotros"
@@ -33,6 +34,7 @@ function GeneralRouter() {
             <Route path='/contacto' element={<Contacto />} />
             {/* <Route path='*' element={<Error404 />} /> */}
           </Routes>
+          <Footer />
         </Wrapper>
       </BrowserRouter>
     </>
