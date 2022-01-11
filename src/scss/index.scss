@@ -461,3 +461,8 @@ iframe {
 .obs {
   background-color: #1a0535;
 }
+
+form {
+  display: flex;
+  flex-flow: column;
+}
