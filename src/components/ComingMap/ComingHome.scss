@@ -1,3 +1,5 @@
+@import "../../scss/libs/mixins";
+
 :root {
   --dark-color: rgb(28, 6, 88);
   --glossy-red: rgb(168, 17, 238);
@@ -16,29 +18,28 @@
   border: 0;
 }
 
-body {
+#solar-system {
+  top: 50vh;
+  right: 0;
+  position: absolute;
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  -webkit-transform: skewX(45deg);
+  -moz-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  -o-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+  justify-content: center;
+  align-items: center;
 
-
-
-  #solar-system {
-    top: 50vh;
-    right: 0;
-    position: absolute;
-    display: flex;
-    width: 50vw;
-    height: 50vh;
-    -webkit-transform: skewX(45deg);
-    -moz-transform: skewX(-45deg);
-    -ms-transform: skewX(-45deg);
-    -o-transform: skewX(-45deg);
-    transform: skewX(-45deg);
-    -webkit-transform-origin: center;
-    -moz-transform-origin: center;
-    -ms-transform-origin: center;
-    -o-transform-origin: center;
-    transform-origin: center;
-    justify-content: center;
-    align-items: center;
+  @include phone {
+    display: none;
   }
 }
 
