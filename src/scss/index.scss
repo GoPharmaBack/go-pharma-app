@@ -49,8 +49,11 @@ $App1: #533278;
 body {
   height: 100%;
   position: relative;
-  background: linear-gradient(#1a0535, #2d0b4b, #10041f);
+  background: linear-gradient(#1d0041, #260d47, #310755, #2d0b4b, #10041f);
 
+  @include tablet {
+    background: #1a0535;
+  }
 }
 
 .App {
