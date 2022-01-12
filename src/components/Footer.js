@@ -7,6 +7,39 @@ import { ExternalLink } from "react-external-link";
 const Footer = () => {
   return (
     <>
+      <section data-aos="fade-up" className="section background">
+        <div data-aos="fade-up" className="contenedor">
+          <h5 data-aos="fade-up">Conquistemos juntos nuevos horizontes. </h5>
+
+          <div className="suscribe-form">
+            {/* Begin Mailchimp Signup Form */}
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
+
+            <div id="mc_embed_signup">
+              <form action="https://go-pharma.us17.list-manage.com/subscribe/post?u=06fe9037f09561112ee0081d6&id=212f57f4e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                <div id="mc_embed_signup_scroll">
+
+                  <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+                  {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
+                  <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text" name="b_06fe9037f09561112ee0081d6_212f57f4e5" tabIndex={-1} defaultValue /></div>
+                  <div className="clear "><input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button btn-primario" /></div>
+                </div>
+              </form>
+            </div>
+            {/*End mc_embed_signup*/}
+          </div>
+
+
+        </div>
+
+        <div className="custom-shape-divider-bottom-1641956409">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" className="shape-fill" />
+          </svg>
+        </div>
+
+
+      </section>
       <footer >
         <div className="contenedor grid" data-aos="fade-up">
           <div className="col-footer ">

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from "react-router-dom";
+
 import logo from '../img/logo-responsive.svg';
 import Slogan from '../img/we-go-beyond.svg';
 import '../scss/index.scss';
@@ -39,6 +39,8 @@ function Home() {
         <img src={logo} className="App-logo" alt="logo go-pharma" />
         <img src={Slogan} className="slogan-img" alt="we go beyons the horizon" />
       </header>
+
+
 
 
       <section data-aos="fade-up" className="section">
@@ -128,16 +130,7 @@ function Home() {
 
       </section>
 
-      <section data-aos="fade-up" className="section background">
-        <div data-aos="fade-up" className="contenedor">
-          <h5 data-aos="fade-up">Conquistemos juntos nuevos horizontes. </h5>
 
-          <Link data-aos="fade-up" to="/contacto" className="btn-primario"> Contáctanos</Link>
-
-        </div>
-
-
-      </section>
 
     </>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+
 
 import '../scss/index.scss';
 
@@ -95,16 +95,7 @@ function Socios() {
       </section>
 
 
-      <section data-aos="fade-up" className="section background">
-        <div data-aos="fade-up" className="contenedor">
-          <h5 data-aos="fade-up">Conquistemos juntos nuevos horizontes. </h5>
 
-          <Link data-aos="fade-up" to="/contacto" className="btn-primario"> Contáctanos</Link>
-
-        </div>
-
-
-      </section>
 
     </>
   );

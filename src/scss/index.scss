@@ -49,8 +49,8 @@ $App1: #533278;
 body {
   height: 100%;
   position: relative;
-  background: linear-gradient(#1d0041, #260d47, #310755, #2d0b4b, #10041f);
-  background: #1a0535;
+  background: linear-gradient(#1a0535, #2d0b4b, #10041f);
+
 }
 
 .App {
@@ -309,14 +309,15 @@ iframe {
   align-items: center;
   justify-content: center;
   position: relative;
-  color: #1d0041;
-  background: #e9e9e9;
+  color: #3a0d70;
+  background: rgb(100, 3, 219) !important;
+  border: 1px solid #000;
   max-width: 270px;
   min-width: 160px;
   height: 50px;
   border-radius: 6px;
-  border: none;
-  outline: none;
+
+
   margin: 15px auto;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   font-size: calc(0.5rem + 0.8vw);
@@ -327,7 +328,7 @@ iframe {
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background-color: #3a0d70;
+    background-color: #3a0d70 !important;
     color: white;
   }
 }
@@ -497,6 +498,7 @@ footer {
   .logo-footer {
     min-width: 90px;
     max-width: calc(3vw + 5rem);
+    margin-bottom: 1rem;
 
   }
 
@@ -570,7 +572,7 @@ footer {
 
 
     small {
-      font-size: calc(0.1vw + 0.63rem);
+      font-size: calc(0.1vw + 0.9rem);
       margin-bottom: 1rem;
       text-align: left !important;
     }
@@ -599,13 +601,14 @@ footer {
 
 
 
+
 .primera {
   margin-right: 20px;
 }
 
 span {
   color: #f0ebf7 !important;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: #9d61f1 !important;
 }
 
@@ -636,4 +639,56 @@ span {
       margin: calc(3vw + 0.63rem);
     }
   }
+}
+
+#canvas2 {
+  display: block;
+}
+
+.pantalla {
+  position: relative;
+  transform: translateY(120px);
+}
+
+.merca2 {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  img {
+    max-width: 320px
+  }
+}
+
+.custom-shape-divider-bottom-1641956409 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1641956409 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 68px;
+}
+
+.custom-shape-divider-bottom-1641956409 .shape-fill {
+  fill: #10041F;
+}
+
+.suscribe-form {
+  text-align: center;
+
+  .email,
+  .btn-primario {
+    text-align: center;
+    margin: 2rem auto !important;
+  }
+
 }

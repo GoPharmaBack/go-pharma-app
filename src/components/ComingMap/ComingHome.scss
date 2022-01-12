@@ -27,6 +27,7 @@ body {
     display: flex;
     width: 50vw;
     height: 50vh;
+    z-index: -1;
     -webkit-transform: skewX(45deg);
     -moz-transform: skewX(-45deg);
     -ms-transform: skewX(-45deg);
