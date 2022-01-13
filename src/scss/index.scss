@@ -48,8 +48,7 @@ $App1: #533278;
 
 body {
   height: 100%;
-  position: relative;
-  background: linear-gradient(#1d0041, #260d47, #310755, #2d0b4b, #10041f);
+  background: linear-gradient(#1d0041, #260d47, #310755, #21043a, #10041f);
 
   @include tablet {
     background: #1a0535;
@@ -256,7 +255,8 @@ span {
 .sociost {
   margin-top: 10vh;
   background-color: white;
-  min-height: 80vh !important;
+  min-height: 70vh !important;
+  padding-bottom: 10vh;
 }
 
 iframe {
@@ -400,6 +400,7 @@ iframe {
 }
 
 .filosofia {
+
   box-sizing: border-box;
 
   .contenedor {
@@ -728,4 +729,47 @@ span {
   .low {
     list-style: lower-alpha;
   }
+}
+
+.custom-shape-divider-top-1642109297 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1642109297 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1642109297 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1642110592 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642110592 svg {
+  position: relative;
+  display: block;
+  width: calc(240% + 1.3px);
+  height: 142px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1642110592 .shape-fill {
+  fill: #10041F;
 }

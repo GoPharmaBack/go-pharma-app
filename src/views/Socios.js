@@ -1,32 +1,16 @@
-import React from 'react';
-
-
-import '../scss/index.scss';
-
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
-
-
-
-
-
-
+import React from "react";
+import "../scss/index.scss";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 function Socios() {
-
-
-
-
   return (
     <>
 
+      <section data-aos="fade-up" data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" className="section sociost">
 
-
-
-      <section data-aos="fade-up" className="section sociost">
         <div className="contenedor">
-
-
           <h4 data-aos="fade-up"> ✨Socios Comerciales✨</h4>
           <div data-aos="fade-up" className="contenedor-socios">
             <div data-aos="fade-up" className="socio">
@@ -40,9 +24,11 @@ function Socios() {
               <img src="https://go-pharma.mx/images/SkinDer.png" alt="socio" />
             </div>
 
-
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/UltraMedic.png" alt="socio" />
+              <img
+                src="https://go-pharma.mx/images/UltraMedic.png"
+                alt="socio"
+              />
             </div>
 
             <div data-aos="fade-up" className="socio">
@@ -54,7 +40,10 @@ function Socios() {
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Ultragenyx.png" alt="socio" />
+              <img
+                src="https://go-pharma.mx/images/Ultragenyx.png"
+                alt="socio"
+              />
             </div>
 
             <div data-aos="fade-up" className="socio">
@@ -73,30 +62,23 @@ function Socios() {
             <div data-aos="fade-up" className="socio">
               <img src="https://go-pharma.mx/images/BPL.png" alt="socio" />
             </div>
-
           </div>
         </div>
-
-
       </section>
 
-      <section className="section filosofia" data-aos="fade-up">
-        <div className="contenedor">
+      <section className="section filosofia" data-aos="fade-up"  >
+
+        <div className="contenedor" data-aos="fade-up">
           <div className="texto">
-            <h3 data-aos="fade-up">
-              NUESTRA FILOSOFÍA
-            </h3>
+            <h3 data-aos="fade-up">NUESTRA FILOSOFÍA</h3>
             <h4 data-aos="fade-up"> PATIENT CENTRICITY </h4>
-            <p className='h2' data-aos="fade-in">&</p>
+            <p className="h2" data-aos="fade-in">
+              &
+            </p>
             <h4 data-aos="fade-up">CUSTOMER ENGAGEMENT </h4>
           </div>
-
         </div>
       </section>
-
-
-
-
     </>
   );
 }
