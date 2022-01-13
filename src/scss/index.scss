@@ -314,7 +314,7 @@ iframe {
   position: relative;
   color: #ffffff;
   background: rgb(100, 3, 219) !important;
-  border: 1px solid #000;
+
   max-width: 270px;
   min-width: 160px;
   height: 50px;
@@ -704,4 +704,28 @@ span {
     margin: 2rem auto !important;
   }
 
+}
+
+
+.aviso-contenedor {
+  margin-top: 20vh;
+  min-height: 100vh;
+  height: auto;
+  text-align: justify;
+
+  h1 {
+    text-align: center !important;
+    margin-bottom: 3rem;
+    font-size: calc(10px + 2vmin);
+  }
+
+  ul,
+  ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .low {
+    list-style: lower-alpha;
+  }
 }
