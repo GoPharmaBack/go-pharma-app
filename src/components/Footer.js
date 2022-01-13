@@ -7,7 +7,7 @@ import { ExternalLink } from "react-external-link";
 const Footer = () => {
   return (
     <>
-      <section data-aos="fade-up" className="section background">
+      <section data-aos="fade-up" className=" background">
         <div data-aos="fade-up" className="contenedor">
           <h5 data-aos="fade-up">Conquistemos juntos nuevos horizontes. </h5>
 
@@ -16,13 +16,13 @@ const Footer = () => {
             <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
 
             <div id="mc_embed_signup">
-              <form action="https://go-pharma.us17.list-manage.com/subscribe/post?u=06fe9037f09561112ee0081d6&id=212f57f4e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+              <form action="https://go-pharma.us17.list-manage.com/subscribe/post?u=06fe9037f09561112ee0081d6&id=212f57f4e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate data-aos="fade-up">
                 <div id="mc_embed_signup_scroll">
-
-                  <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
+                  <label className="label-email" htmlFor="Email"> 🚀 Recibe nuestras novedades hasta tu galaxia... </label>
+                  <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Escribe tu correo electrónico" required />
                   {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
                   <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text" name="b_06fe9037f09561112ee0081d6_212f57f4e5" tabIndex={-1} defaultValue /></div>
-                  <div className="clear "><input type="submit" defaultValue="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button btn-primario" /></div>
+                  <div className="clear "><input type="submit" defaultValue="Subscribirse" name="subscribe" id="mc-embedded-subscribe" className="button btn-primario" /></div>
                 </div>
               </form>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li><Link to="/servicios">Servicios</Link></li>
               <li><Link to="/socios-comerciales">Socios Comerciales</Link></li>
               <li><Link to="/contacto">Contacto</Link></li>
-              <li><Link to="/contacto">Aviso de privacidad</Link></li>
+              <li><Link to="/aviso-de-privacidad">Aviso de privacidad</Link></li>
               <div className="row"> <ExternalLink href="https://www.instagram.com/gopharmamx/">
                 <li>
                   <FaIcons.FaInstagram />
@@ -81,7 +81,11 @@ const Footer = () => {
                 </ExternalLink></div>
             </ul>
           </div>
-          <div className="col-footer"><iframe className='playlist' title='playlist' src="https://open.spotify.com/embed/playlist/2vpHrueDEGWmvGhSWfgxll?utm_source=generator" width="100%" height={380} frameBorder={0} allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" /></div>
+          <div className="col-footer">
+
+            <iframe title="playlist" className="playlist" src="https://open.spotify.com/embed/playlist/2JvfdVFmxhdb5mKfF5UQLQ?utm_source=generator" width="100%" height={380} frameBorder={0} allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" />
+
+          </div>
         </div>
 
 

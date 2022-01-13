@@ -25,7 +25,7 @@ function Servicios() {
           <div className="servicio" data-aos="fade-in">
             <img src={Imagen} alt="servicio" />
             <p className="titulo">Market Research</p>
-            <p className="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus officia assumenda. Quidem autem exercitationem nostrum blanditiis nobis odio dolorem.</p>
+
 
           </div>
           <div className="servicio" data-aos="fade-in">

@@ -27,7 +27,7 @@ function Socios() {
         <div className="contenedor">
 
 
-          <h4 data-aos="fade-up">Nuestros<br /> Socios Comerciales</h4>
+          <h4 data-aos="fade-up"> ✨Socios Comerciales✨</h4>
           <div data-aos="fade-up" className="contenedor-socios">
             <div data-aos="fade-up" className="socio">
               <img src="https://go-pharma.mx/images/Sparks.png" alt="socio" />

@@ -312,7 +312,7 @@ iframe {
   align-items: center;
   justify-content: center;
   position: relative;
-  color: #3a0d70;
+  color: #ffffff;
   background: rgb(100, 3, 219) !important;
   border: 1px solid #000;
   max-width: 270px;
@@ -688,8 +688,18 @@ span {
 .suscribe-form {
   text-align: center;
 
+  .email {
+    max-width: 404px;
+  }
+
+  .label-email {
+    text-align: center;
+    font-size: calc(1vw + 0.63rem) !important;
+  }
+
   .email,
   .btn-primario {
+
     text-align: center;
     margin: 2rem auto !important;
   }
