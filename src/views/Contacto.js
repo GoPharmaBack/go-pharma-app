@@ -12,11 +12,6 @@ export const Contacto = () => {
       <div className="contenedor">
         <img src="/" alt="astronauta" />
         <div className="contenedor-form">
-          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-            <input type="text" name="name" />
-            <input type="email" name="email" />
-            <textarea name="message"></textarea>
-          </form>
           <form name="contact" method="POST" data-netlify="true">
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
@@ -37,6 +32,7 @@ export const Contacto = () => {
               <button type="submit">Send</button>
             </p>
           </form>
+
         </div>
       </div>
 
