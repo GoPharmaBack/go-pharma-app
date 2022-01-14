@@ -358,12 +358,16 @@ iframe {
 
   .servicio {
     padding: 1rem;
-    font-size: calc((1.6 - 1) * 0.2vw + 1rem);
-
+    font-size: calc((1.2 - 1) * 0.1vw + 0.9rem);
+    text-align: left;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-flow: column;
+
+    p {
+      text-align: left;
+    }
 
     img {
       margin: auto;
@@ -375,6 +379,10 @@ iframe {
 
 .servicios {
   padding-top: 5rem;
+
+  .grupo-servicios {
+    text-align: center;
+  }
 }
 
 .header-servicios {

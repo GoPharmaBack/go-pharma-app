@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Imagen from "../img/DigitalMKTPharma.png"
+//import Imagen from "../img/DigitalMKTPharma.png"
 
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
@@ -15,95 +15,98 @@ function Servicios() {
               <h1>
                 Portafolio de Servicios 360°
               </h1>
-              <p>ALINEADOS Y ENFOCADOS EN LOS OBJETIVOS DE NUESTROS SOCIOS COMERCIALES. </p>
+              <p className="h2">ALINEADOS Y ENFOCADOS EN LOS OBJETIVOS DE NUESTROS SOCIOS COMERCIALES. </p>
               <br />
               <Link className="btn-primario" to="/">Contáctanos</Link>
             </div>
           </div>
         </header>
-        <div className="servicios-contenedor" data-aos="fade-in">
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Market Research</p>
 
+        <div className="section grupo-servicios">
+          <h3>MKT PHARMA</h3>
+          <div className="servicios-contenedor" data-aos="fade-in">
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">BRAND STRATEGY & PHARMA VISUAL CONCEPT </p>
+              <p>En alianza con nuestros clientes y conjunto a nuestro gran equipo creativo, damos vida y personalidad a las marcas, incluso dentro del mercado farmacéutico, nos caracterizan nuestras propuestas innovadoras, que aseguran marcar el paso a la siguiente generación </p>
+
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">MARKET RESEARCH </p>
+              <p>A través de estudios especializados e investigaciones de la mano de expertos médicos, creamos en conjunto con nuestros clientes planes de inteligencia de mercados enfocados en los principales objetivos: ENGAGEMENT - PACIENT QOL - ITT </p>
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">ADVISORY BOARD</p>
+              <p>Contamos con una amplia base de datos de especialistas en las áreas de ONCOLOGÍA, NEFROLOGÍA, ENDOCRINOLOGÍA, GENÉTICA, MEDICINA GENERAL, DERMATOLOGÍA y más, que suman invariablemente a las propuestas estratégicas que planteamos a nuestros clientes.</p>
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">MEDICAL CONTENT´/ DISEASE AWARENESS/ PATIENT SUPPORT PROGRAMS </p>
+              <p>El sector salud tiene importantes particularidades y sabemos que es necesario conocerlas y entenderlas para desarrollar una estrategia exitosa, por lo que en GO PHARMA contamos con un equipo de médicos líderes en el sector que cuentan con experiencia y profundo conocimiento para ayudar a nuestros clientes a desarrollar metodologías y estrategias propias, optimizadas y con enfoque en el paciente.</p>
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">MARKET ACCESS </p>
+              <p>
+                Analizamos las necesidades del sector salud para desarrollar estrategias coherentes con las
+
+                prioridades estratégicas de nuestros clientes.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div className="section grupo-servicios">
+          <h3>DIGITAL MKT PHARMA </h3>
+          <div className="servicios-contenedor" data-aos="fade-in">
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">SOCIAL MEDIA ENGAGEMENT  </p>
+              <p>La omnicanalidad es un concepto cada vez más conocido y necesario para las marcas de todas las industrias, un punto clave para este contacto son las redes sociales, con contenido y formatos clave nos aseguramos de ser aliados de valor.  </p>
+
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">WEB & APP DEVELOPMENT </p>
+              <p>Contar con varios puntos de contacto en el plano digital jamás había sido tan importante, tenemos experiencia en la creación de sitios web interactivos y aplicaciones móviles que lleven información crucial sobre nuestros clientes y catálogos, disponible en todos los dispositivos en todo momento.  </p>
+
+            </div>
 
           </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Advisory Board</p>
+        </div>
+
+        <div className="section grupo-servicios">
+          <h3>VIDEO, SHOOTING & FILM PRODUCTION  </h3>
+          <div className="servicios-contenedor" data-aos="fade-in">
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">STREAMING & LIVE PRODUCTION  </p>
+              <p>El FORO GO PHARMA está equipado para satisfacer las nuevas necesidades digitales de nuestros clientes, desde eventos EN VIVO hasta capacitaciones grabadas, hemos sumado nuestros servicios de producción de video a las estrategias comerciales de nuestros clientes.   </p>
+
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">PRINT, PROMO & EDITORIAL EVENT EXPERIENCE & PRODUCTION  </p>
+              <p>Con nuestro servicio in-house de impresión y taller de producción, somos aliados efectivos para la producción de recursos promocionales para eventos de la industria. Tenemos el mayor expertise en la producción de eventos de alto impacto, asegurando calidad y cuidado en cada detalle.  </p>
+
+            </div>
+            <div className="servicio" data-aos="fade-in">
+
+              <p className="titulo">CATERING CONCIERGE </p>
+              <p>Ofrecemos nuestras opciones de catering y asistencia durante eventos como un plus para nuestros clientes, atendiendo de manera personalizada cada punto de contacto con el cliente final</p>
+
+            </div>
 
           </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Medical Content</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Disease Awareness</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Data Science</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Brand Strategy</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Public Affairs & Advocacy Strategy</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Pharma Visual Concept</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Digital MKT Pharma</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Social Media Engagement</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">WEB & APP Development</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Video, Shooting & Film Production</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Streaming & Live Production</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Print, Promo & Editorial</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">Event Experience & Production</p>
-
-          </div>
-          <div className="servicio" data-aos="fade-in">
-            <img src={Imagen} alt="servicio" />
-            <p className="titulo">CaterinG concierge</p>
-
-          </div>
-
         </div>
       </div>
     </section>
