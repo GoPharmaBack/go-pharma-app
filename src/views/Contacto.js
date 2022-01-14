@@ -12,7 +12,7 @@ export const Contacto = () => {
       <div className="contenedor">
         <img src="/" alt="astronauta" />
         <div className="contenedor-form">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" netlify>
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
