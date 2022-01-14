@@ -597,6 +597,16 @@ footer {
     justify-content: space-between;
     margin-left: 1rem;
 
+    @include phone {
+      .titulo {
+        align-self: center !important;
+      }
+
+      margin:0px;
+      align-items: center;
+      text-align: center !important;
+    }
+
     small {
       max-width: 320px;
     }
@@ -829,13 +839,20 @@ span {
 }
 
 .pilares {
+  padding: 1rem;
   margin-bottom: 30vh;
+  text-align: left;
+
+  @include phone {
+    text-align: center;
+  }
 
   ul {
-    text-align: center;
+
     list-style: none;
     display: flex;
     box-sizing: border-box;
+
 
     li {
       padding: 1rem;
