@@ -60,7 +60,18 @@ function Home() {
 
         </div>
       </section>
-
+      <section className="section filosofia" data-aos="fade-up">
+        <div className="contenedor ">
+          <div className="texto">
+            <h3 data-aos="fade-up">NUESTRA FILOSOFÍA</h3>
+            <h4 data-aos="fade-up"> PATIENT CENTRICITY </h4>
+            <p className="h2" data-aos="fade-in">
+              &
+            </p>
+            <h4 data-aos="fade-up">CUSTOMER ENGAGEMENT </h4>
+          </div>
+        </div>
+      </section>
       <Socios />
 
     </>

@@ -44,6 +44,10 @@ const Footer = () => {
       </section>
       <footer >
         <div className="contenedor grid" data-aos="fade-up">
+          <div className="contenedor-mapa">
+            <iframe title="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60219.2867853589!2d-99.21072112089844!3d19.38190370000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffee58450ff3%3A0xd1b17bf5a6861cef!2sGO%20PHARMA!5e0!3m2!1ses-419!2smx!4v1642183790827!5m2!1ses-419!2smx" height={250} style={{ border: 0 }} allowFullScreen loading="lazy" />
+
+          </div>
           <div className="col-footer ">
 
             <img src={logo} className="logo-footer" alt="go-pharma" />

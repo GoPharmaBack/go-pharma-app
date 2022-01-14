@@ -1,7 +1,9 @@
 import React from "react";
 import "../scss/index.scss";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-
+import Eisai from "../img/eisai.png"
+import Allergan from "../img/Allergan.png"
+import Abbvie from "../img/abbvie.png"
 function Socios() {
   return (
     <>
@@ -62,23 +64,20 @@ function Socios() {
             <div data-aos="fade-up" className="socio">
               <img src="https://go-pharma.mx/images/BPL.png" alt="socio" />
             </div>
+            <div data-aos="fade-up" className="socio">
+              <img src={Allergan} alt="socio" />
+            </div>
+            <div data-aos="fade-up" className="socio">
+              <img src={Eisai} alt="socio" />
+            </div>
+            <div data-aos="fade-up" className="socio">
+              <img src={Abbvie} alt="socio" />
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="section filosofia" data-aos="fade-up"  >
 
-        <div className="contenedor" data-aos="fade-up">
-          <div className="texto">
-            <h3 data-aos="fade-up">NUESTRA FILOSOFÍA</h3>
-            <h4 data-aos="fade-up"> PATIENT CENTRICITY </h4>
-            <p className="h2" data-aos="fade-in">
-              &
-            </p>
-            <h4 data-aos="fade-up">CUSTOMER ENGAGEMENT </h4>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
