@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <section data-aos="fade-up" className=" background">
         <div data-aos="fade-up" className="contenedor">
-          <h5 data-aos="fade-up"> 🚀 <br /> Conquistemos juntos nuevos horizontes. </h5>
+          <h5 data-aos="fade-up">  <span role="img" aria-label="cohete">🚀</span> <br /> Conquistemos juntos nuevos horizontes. </h5>
 
           <div className="suscribe-form">
             {/* Begin Mailchimp Signup Form */}

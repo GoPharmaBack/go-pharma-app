@@ -13,7 +13,7 @@ function Socios() {
         data-aos-offset="0" className="section sociost">
 
         <div className="contenedor">
-          <h4 data-aos="fade-up"> ✨Socios Comerciales✨</h4>
+          <h4 data-aos="fade-up"> <span role="img" aria-label="chispas">✨</span>Socios Comerciales<span role="img" aria-label="chispas">✨</span></h4>
           <div data-aos="fade-up" className="contenedor-socios">
             <div data-aos="fade-up" className="socio">
               <img src="https://go-pharma.mx/images/Sparks.png" alt="socio" />
