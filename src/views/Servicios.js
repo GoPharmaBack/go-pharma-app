@@ -46,7 +46,7 @@ function Servicios() {
             </div>
             <div className="servicio" data-aos="fade-in">
               <img src="https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/services%2FMedical-content.png?alt=media&token=c325a0f5-341c-4f4f-81e9-e9b1b5187cab" alt="" />
-              <p className="titulo">MEDICAL CONTENT´/ DISEASE AWARENESS/ PATIENT SUPPORT PROGRAMS </p>
+              <p className="titulo">MEDICAL CONTENT/ DISEASE AWARENESS/ PATIENT SUPPORT PROGRAMS </p>
               <p>El sector salud tiene importantes particularidades y sabemos que es necesario conocerlas y entenderlas para desarrollar una estrategia exitosa, por lo que en GO PHARMA contamos con un equipo de médicos líderes en el sector que cuentan con experiencia y profundo conocimiento para ayudar a nuestros clientes a desarrollar metodologías y estrategias propias, optimizadas y con enfoque en el paciente.</p>
 
             </div>
