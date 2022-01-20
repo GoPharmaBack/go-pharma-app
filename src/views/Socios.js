@@ -1,6 +1,18 @@
 import React from "react";
 import "../scss/index.scss";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Sparks from "../img/Sparks.png"
+import GrupoVal from "../img/GrupoVal.png"
+import Skinder from "../img/SkinDer.png"
+import UltraMedic from "../img/UltraMedic.png"
+import Omer from "../img/Omer.png"
+import Coiner from "../img/Coiner.png"
+import Ultragenyx from "../img/Ultragenyx.png"
+import Teva from "../img/Teva.png"
+import Baxter from "../img/Baxter.png"
+import Roche from "../img/Roche.png"
+import Aga from "../img/Aga.png"
+import Bpl from "../img/BPL.png"
 import Eisai from "../img/eisai.png"
 import Allergan from "../img/Allergan.png"
 import Abbvie from "../img/abbvie.png"
@@ -16,53 +28,53 @@ function Socios() {
           <h4 data-aos="fade-up"> <span role="img" aria-label="chispas">✨</span>Socios Comerciales<span role="img" aria-label="chispas">✨</span></h4>
           <div data-aos="fade-up" className="contenedor-socios">
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Sparks.png" alt="socio" />
+              <img src={Sparks} alt="socio" />
             </div>
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/GrupoVal.png" alt="socio" />
+              <img src={GrupoVal} alt="socio" />
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/SkinDer.png" alt="socio" />
+              <img src={Skinder} alt="socio" />
             </div>
 
             <div data-aos="fade-up" className="socio">
               <img
-                src="https://go-pharma.mx/images/UltraMedic.png"
+                src={UltraMedic}
                 alt="socio"
               />
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Omer.png" alt="socio" />
+              <img src={Omer} alt="socio" />
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Coiner.png" alt="socio" />
+              <img src={Coiner} alt="socio" />
             </div>
 
             <div data-aos="fade-up" className="socio">
               <img
-                src="https://go-pharma.mx/images/Ultragenyx.png"
+                src={Ultragenyx}
                 alt="socio"
               />
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Teva.png" alt="socio" />
+              <img src={Teva} alt="socio" />
             </div>
 
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Baxter.png" alt="socio" />
+              <img src={Baxter} alt="socio" />
             </div>
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Roche.png" alt="socio" />
+              <img src={Roche} alt="socio" />
             </div>
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/Aga.png" alt="socio" />
+              <img src={Aga} alt="socio" />
             </div>
             <div data-aos="fade-up" className="socio">
-              <img src="https://go-pharma.mx/images/BPL.png" alt="socio" />
+              <img src={Bpl} alt="socio" />
             </div>
             <div data-aos="fade-up" className="socio">
               <img src={Allergan} alt="socio" />
