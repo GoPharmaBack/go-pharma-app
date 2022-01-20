@@ -448,12 +448,14 @@ iframe {
   }
 }
 
-.iframe-contenedor {
+#iframe-contenedor {
+  position: relative;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 
   iframe {
     max-width: 980px;
