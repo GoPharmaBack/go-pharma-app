@@ -113,7 +113,7 @@ class ContactForm extends Component {
               />
             </div>
 
-            <small>
+            <small >
               ** información requerida
               <br />
               Al enviar este formulario, se le agregará a nuestra lista de correo.

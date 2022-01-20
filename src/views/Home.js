@@ -51,7 +51,8 @@ function Home() {
       </section>
       <section data-aos="fade-up" className="section">
         <div className="contenedor" data-aos="fade-up">
-          <div className="iframe-contenedor" data-aos="fade-up" ><iframe src="https://www.youtube.com/embed/hy_OH1hxpUo" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+          <div classname="iframe-contenedor" data-aos="fade-up"><div style={{ padding: '75% 0 0 0', position: 'relative' }}><iframe src="https://player.vimeo.com/video/668322181?h=f15f9ccf67&badge=0&autopause=0&player_id=0&app_id=58479" frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} title="1Presentación 2021.mp4" /></div></div>
+
           <br />
           <div className="texto mt-3" data-aos="fade-up">
             <h3>GO PHARMA<sup>®</sup> TEAM</h3>
