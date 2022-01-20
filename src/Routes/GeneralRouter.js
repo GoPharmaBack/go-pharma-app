@@ -11,6 +11,7 @@ import Contacto from "../views/Contacto"
 import Aviso from "../views/Aviso"
 import Sucess from "../views/Sucess"
 import Error from '../views/Error'
+import Fondo from '../views/Fondo'
 import { useLayoutEffect } from 'react'
 
 const Wrapper = ({ children }) => {
@@ -27,6 +28,9 @@ function GeneralRouter() {
 
       <BrowserRouter>
         <Wrapper>
+          <Routes >
+            <Route path='/fondo' element={<Fondo />} />
+          </Routes>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -38,6 +42,7 @@ function GeneralRouter() {
             <Route path='/aviso-de-privacidad' element={<Aviso />} />
             <Route path='/success' element={<Sucess />} />
             <Route path='/error' element={<Error />} />
+
             {/* <Route path='*' element={<Error404 />} /> */}
           </Routes>
           <Footer />
