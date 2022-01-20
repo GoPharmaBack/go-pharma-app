@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { ExternalLink } from "react-external-link";
 import * as FaIcons from "react-icons/fa";
 import 'aos/dist/aos.css';
 import logo from '../img/logo-responsive.svg';
-import { ExternalLink } from "react-external-link";
+
 const Footer = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const Footer = () => {
                   <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Escribe tu correo electrónico" required />
                   {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
                   <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text" name="b_06fe9037f09561112ee0081d6_212f57f4e5" tabIndex={-1} defaultValue /></div>
-                  <div className="clear "><input type="submit" defaultValue="Subscribirse" name="subscribe" id="mc-embedded-subscribe" className="button btn-primario" /></div>
+                  <div className="clear "><input type="submit" defaultValue="Subscribirse" name="Subscribirse" id="mc-embedded-subscribe" className="button btn-primario" /></div>
                 </div>
               </form>
             </div>

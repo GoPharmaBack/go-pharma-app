@@ -9,6 +9,8 @@ import Nosotros from "../views/Nosotros"
 import Socios from "../views/Socios"
 import Contacto from "../views/Contacto"
 import Aviso from "../views/Aviso"
+import Sucess from "../views/Sucess"
+import Error from '../views/Error'
 import { useLayoutEffect } from 'react'
 
 const Wrapper = ({ children }) => {
@@ -34,6 +36,8 @@ function GeneralRouter() {
             <Route path='/socios-comerciales' element={<Socios />} />
             <Route path='/contacto' element={<Contacto />} />
             <Route path='/aviso-de-privacidad' element={<Aviso />} />
+            <Route path='/success' element={<Sucess />} />
+            <Route path='/error' element={<Error />} />
             {/* <Route path='*' element={<Error404 />} /> */}
           </Routes>
           <Footer />

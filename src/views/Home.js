@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import Socios from '../views/Socios';
-
+import Team from '../components/Team'
 
 
 
@@ -52,14 +52,14 @@ function Home() {
       <section data-aos="fade-up" className="section">
         <div className="contenedor" data-aos="fade-up">
           <div className="iframe-contenedor" data-aos="fade-up" ><iframe src="https://www.youtube.com/embed/hy_OH1hxpUo" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
-
-          <div className="texto" data-aos="fade-up">
+          <br />
+          <div className="texto mt-3" data-aos="fade-up">
             <h3>GO PHARMA<sup>®</sup> TEAM</h3>
             <p className="h2">Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la industria <span>PHARMA</span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.</span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras.</p>
           </div>
-
         </div>
       </section>
+      <Team />
       <section className="section filosofia" data-aos="fade-up">
         <div className="contenedor ">
           <div className="texto">
@@ -72,6 +72,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       <Socios />
 
     </>
