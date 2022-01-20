@@ -56,7 +56,7 @@ function Home() {
 
             <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
 
-              <iframe src="https://player.vimeo.com/video/668322181?h=f15f9ccf67&badge=0&autopause=0&player_id=0&app_id=58479" frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              <iframe className="iframe-video" src="https://player.vimeo.com/video/668322181?h=f15f9ccf67&badge=0&autopause=0&player_id=0&app_id=58479" frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
                 title="go-pharma presentacion" /></div></div>
 
           <br />
