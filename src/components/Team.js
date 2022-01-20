@@ -11,7 +11,7 @@ function Team() {
     {
       id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team9.png?alt=media&token=697585e8-63ce-4857-bdc6-c99c40792f6d",
-      name: "Francisco Omar Valdez Tapia ",
+      name: "Frank Valdez Tapia ",
       position: "CEO"
     },
     {
