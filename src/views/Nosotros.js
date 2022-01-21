@@ -61,13 +61,13 @@ function Nosotros() {
             <div data-aos="fade-up" className="col">
               <h3>2</h3>
               <p className="h2">
-                Trabajamos en equipo cuidando al máximo cada detalle{" "}
+                Trabajamos en equipo cuidando al máximo cada detalle.{" "}
               </p>
             </div>
             <div data-aos="fade-up" className="col">
               <h3>3</h3>
               <p className="h2">
-                Mantenemos el orden y constancia en todo momento{" "}
+                Mantenemos el orden y constancia en todo momento.{" "}
               </p>
             </div>
           </div>
@@ -75,7 +75,8 @@ function Nosotros() {
         <div className="contenedor">
           <div className="texto mt-3" data-aos="fade-up">
             <h2>GO PHARMA<sup>®</sup> TEAM</h2>
-            <p className="h2">Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la industria <span>PHARMA</span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.</span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras.</p>
+            <p className="h2">
+              Somos un equipo <span>INTERDISCIPLINARIO<span/> formado en la industria <span>PHARMA<span/> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.<span/> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,<span/> entre otras.</p>
           </div>
         </div>
       </section>
