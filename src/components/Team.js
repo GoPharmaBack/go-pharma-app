@@ -168,22 +168,16 @@ function Team() {
       position: "Legal Head",
       hobbies: "Tocar el saxofon y las congas,escuchar música, leer"
     },
+   
     {
       id: 24,
-      img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team0.png?alt=media&token=1c2aaf9c-0d01-445b-96b3-7e2311fcc5fb",
-      name: "Angel Iván González Zaráte",
-      position: "Construction Leader",
-      hobbies: ""
-    },
-    {
-      id: 25,
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team19.png?alt=media&token=7a2aa663-fa07-4b30-9018-331e73ca24f5",
       name: "Ricardo Perera Villafaña",
       position: "SKIN DER Supply",
       hobbies: "Jugar videojuegos,ir al gimnasio , andar en bici"
     },
     {
-      id: 26,
+      id: 25,
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team8.png?alt=media&token=569b95a4-7ed8-461f-9dac-67c53d852baa",
       name: "Hugo Gerardo Rosales Hernández",
       position: "Movility",
