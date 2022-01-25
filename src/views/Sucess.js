@@ -1,12 +1,13 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 function Sucess() {
   console.log("mensaje enviado")
   return <>
-    <section data-aos="fade-in">
-      <div className="contenedor">
-        <h1><span role="img" aria-hidden="true">👍🏽 </span>
-          Sucess</h1>
+    <section className="section" data-aos="fade-in">
+      <div className="contenedor" style={{ textAlign: "center" }}>
+        <h1>Mensaje enviado</h1>
+        <p>Le contactaremos a la brevedad</p>
+        <Link to="/" className="btn-primario">Ir al inicio</Link>
       </div>
     </section>
   </>;

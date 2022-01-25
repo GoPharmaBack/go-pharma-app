@@ -24,7 +24,7 @@ class ContactForm extends Component {
 
     axios({
       method: "POST",
-      url: "https://staff.crbz.xyz/contact",
+      url: " https://quiet-dawn-44299.herokuapp.com/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {

@@ -52,7 +52,7 @@ function Home() {
       <section data-aos="fade-up" className="section">
         <div className="contenedor" data-aos="fade-up">
 
-          <div classname="iframe-contenedor" >
+          <div className="iframe-contenedor" >
 
             <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
 
