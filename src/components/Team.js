@@ -31,7 +31,7 @@ function Team() {
     {
       id: 4,
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team21.png?alt=media&token=ec4f5856-6aec-42e6-871e-c73d00461818",
-      name: "Rafael Luis Navarro Gama",
+      name: "Rafael Navarro ",
       position: "Medical Director",
       hobbies: "Leer, acampar, pintura"
     },
@@ -168,7 +168,7 @@ function Team() {
       position: "Legal Head",
       hobbies: "Tocar el saxofon y las congas,escuchar música, leer"
     },
-   
+
     {
       id: 24,
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team19.png?alt=media&token=7a2aa663-fa07-4b30-9018-331e73ca24f5",
@@ -189,15 +189,19 @@ function Team() {
     <section data-aos="fade-up" className="Team section">
 
       <div className="contenedor ">
-
-        <div className="main  ">
+        <div className="texto mt-3 mb-4 " data-aos="fade-up">
+          <h3>GO PHARMA<sup>®</sup> TEAM</h3>
+          <p className="h2">Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la industria <span>PHARMA</span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.</span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras.</p>
+        </div>
+        <br />
+        <div className="main mt-3  ">
           {data.map((user) => (
             <div className="profile-card " key={user.id} data-aos="fade-up">
               <div className="img">
                 <img src={user.img} alt="go-pharma-team" />
               </div>
 
-              <div className="caption">
+              <div className="caption mt-3 ">
                 <h3>{user.name}</h3>
                 <p>{user.position}</p>
 

@@ -100,7 +100,7 @@
     top: 64px;
     flex-flow: column;
     position: absolute;
-    background-color: #533278;
+    background-color: #2c0953;
     height: calc(100vh - 54px);
     width: 100%;
     display: flex;
@@ -135,12 +135,12 @@
 
 .nav-colored,
 .nav-colored-solid {
-  background-color: #533278 !important;
+  background-color: #350f61 !important;
   width: 100%;
   padding: 0.5% 5%;
   position: fixed;
   top: 0;
-  height: 55px;
+  height: 10vh;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 

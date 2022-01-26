@@ -10,8 +10,8 @@ function Nosotros() {
           <h1 data-aos="fade-up"> Nosotros</h1>
 
           <h2>
-            Somos una agencia de <span>CONSULTORÍA, MKT &amp; MEDIA</span>{'{'}" "{'}'}
-            especializada en el mercado <span>PHARMA</span> y el sector{'{'}" "{'}'}
+            Somos una agencia de <span>CONSULTORÍA, MKT &amp; MEDIA </span>
+            especializada en el mercado <span>PHARMA</span> y el sector
             <span>SALUD. </span> Desarrollamos estrategias integradas desde
             market research hasta la ejecución de la planeación, siempre
             enfocados a <span>RESULTADOS.</span>
@@ -73,13 +73,7 @@ function Nosotros() {
             </div>
           </div>
         </div>
-        <div classname="contenedor">
-          <div classname="texto mt-3" data-aos="fade-up">
-            <h2>GO PHARMA<sup>®</sup> TEAM</h2>
-            <p classname="h2">
-              Somos un equipo <span>INTERDISCIPLINARIO<span> formado en la industria <span>PHARMA<span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.<span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,<span> entre otras.</span></span></span></span></span></span></span></span></p>
-          </div>
-        </div>
+
 
       </section>
 

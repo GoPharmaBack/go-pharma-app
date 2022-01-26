@@ -46,7 +46,7 @@ function Home() {
       <section data-aos="fade-up" className="section">
         <div className="contenedor" data-aos="fade-up">
           <h1 data-aos="fade-up">Go Pharma<sup>®</sup></h1>
-          <h2 data-aos="fade-up">Somos una agencia de <span>CONSULTORÍA, MKT & MEDIA</span> especializada en el mercado <span>PHARMA</span> y el sector <span>SALUD. </span> Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a <span>RESULTADOS.</span></h2>
+          <h2 data-aos="fade-up">Somos una agencia de <span>CONSULTORÍA, MKT & MEDIA </span>especializada en el mercado <span>PHARMA</span> y el sector <span>SALUD. </span> Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a <span>RESULTADOS.</span></h2>
         </div>
       </section>
       <section data-aos="fade-up" className="section">
@@ -57,16 +57,14 @@ function Home() {
             <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
 
               <iframe className="iframe-video" src="https://player.vimeo.com/video/668322181?h=f15f9ccf67&badge=0&autopause=0&player_id=0&app_id=58479" frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-                title="go-pharma presentacion" /></div></div>
+                title="go-pharma presentacion" /></div>
+          </div>
 
           <br />
-          <div className="texto mt-3" data-aos="fade-up">
-            <h3>GO PHARMA<sup>®</sup> TEAM</h3>
-            <p className="h2">Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la industria <span>PHARMA</span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.</span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras.</p>
-          </div>
+          <Team />
         </div>
       </section>
-      <Team />
+
       <section className="section filosofia" data-aos="fade-up">
         <div className="contenedor ">
           <div className="texto">

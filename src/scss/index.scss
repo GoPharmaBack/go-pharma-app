@@ -1,4 +1,5 @@
 $App1: #533278;
+
 @import "./libs/mixins";
 @import "./libs/variables";
 @import "./libs/type";
@@ -521,6 +522,7 @@ footer {
 
     text-decoration: none;
     list-style: none;
+    padding: 0px !important;
 
     li {
       margin: calc(0.1vw + 0.63rem);
@@ -687,22 +689,29 @@ span {
   font-size: calc(1vw + 0.63rem);
   align-items: center;
   justify-content: flex-start;
-
+  width: 100%;
   display: flex;
-  flex-flow: row;
+  flex-flow: row !important;
+  box-sizing: border-box;
+
 
   li {
-    margin: calc(0.1vw + 0.63rem);
+    margin: calc(0.1vw + 1rem);
   }
 
   @include phone {
-    font-size: calc(2vw + 0.63rem);
-    justify-content: center;
+    font-size: calc(2vw + 1rem);
+    text-align: center;
 
     li {
-      margin: calc(3vw + 0.63rem);
+      margin: 1rem;
     }
   }
+}
+
+.row>* {
+  width: 50px;
+
 }
 
 #canvas2 {
@@ -728,7 +737,7 @@ span {
 
 .custom-shape-divider-bottom-1641956409 {
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -740,6 +749,7 @@ span {
   display: block;
   width: calc(118% + 1.3px);
   height: 68px;
+  transform: translateY(-5px) !important;
 }
 
 .custom-shape-divider-bottom-1641956409 .shape-fill {
@@ -819,15 +829,13 @@ span {
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1642110592 svg {
   position: relative;
   display: block;
-  width: calc(240% + 1.3px);
-  height: 142px;
-  transform: rotateY(180deg);
+
 }
 
 .custom-shape-divider-bottom-1642110592 .shape-fill {
@@ -933,6 +941,8 @@ span {
 
   @include phone {
     grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: 100vh;
   }
 }
 
@@ -1038,7 +1048,7 @@ span {
 .caption {
   h3 {
     max-width: 180px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin: 0px auto !important;
     padding: 0px !important;
   }
@@ -1142,4 +1152,19 @@ span {
 
 .iframe-video {
   z-index: 5;
+}
+
+
+.cls-1 {
+  fill: #0b0b0b;
+  width: 100vw;
+  position: relative;
+  display: block;
+  width: calc(240% + 1.3px);
+  height: 142px;
+
+}
+
+ul {
+  margin-left: none;
 }

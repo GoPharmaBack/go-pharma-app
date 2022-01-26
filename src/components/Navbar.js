@@ -52,7 +52,7 @@ function Navbar() {
   return (
     <nav id="navScr" className="navbar " data-aos="fade-in">
       <NavLink to="/" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
-        <img src={Logo} alt="go-pharma" />
+        <img className="mt-1" src={Logo} alt="go-pharma" />
 
       </NavLink>
       <ul className={click ? "navbar_menu active " : "navbar_menu"}>
