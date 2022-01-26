@@ -50,6 +50,7 @@ $App1: #533278;
 body {
   height: 100%;
   background: linear-gradient(#1d0041, #260d47, #310755, #21043a, #10041f);
+  background: #1a0535;
 
   @include tablet {
     background: #1a0535;
@@ -830,6 +831,7 @@ span {
   overflow: hidden;
   line-height: 0;
   transform: rotateY(180deg);
+  bottom: -5px;
 }
 
 .custom-shape-divider-bottom-1642110592 svg {

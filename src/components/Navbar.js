@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from 'react-router-dom'
 import { ExternalLink } from "react-external-link";
 import * as FaIcons from "react-icons/fa";
-import Logo from '../img/logo.svg';
+
 //import Logo from "../../img/logo.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -48,11 +48,11 @@ function Navbar() {
   }, [])
 
 
-
+  const Logo = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/Logo_GoPharma.png?alt=media&token=7a044cb4-fb09-4588-b43a-c45fc180351f';
   return (
     <nav id="navScr" className="navbar " data-aos="fade-in">
       <NavLink to="/" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
-        <img className="mt-1" src={Logo} alt="go-pharma" />
+        <img className="mt-1 logo-nav" src={Logo} alt="go-pharma" />
 
       </NavLink>
       <ul className={click ? "navbar_menu active " : "navbar_menu"}>
