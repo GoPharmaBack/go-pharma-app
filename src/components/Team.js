@@ -202,7 +202,7 @@ function Team() {
               </div>
 
               <div className="caption mt-3 ">
-                <h3>{user.name}</h3>
+                <h3 >{user.name}</h3>
                 <p>{user.position}</p>
 
               </div>
