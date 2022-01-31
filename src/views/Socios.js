@@ -54,7 +54,7 @@ function Socios() {
     },
     {
       id: 10,
-      img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FCoiner.png?alt=media&token=2053bacd-985c-471a-9715-4573d6164e9d",
+      img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogo_COINER.png?alt=media&token=1e6b9e20-0a1b-4d03-9ec8-ba72e41b6c3d",
       name: "Coiner"
     },
     {
