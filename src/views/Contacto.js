@@ -24,7 +24,7 @@ class ContactForm extends Component {
 
     axios({
       method: "POST",
-      url: " http://13.58.216.185:5000/contact",
+      url: "https://13.58.216.185:5000/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
