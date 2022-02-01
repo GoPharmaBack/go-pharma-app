@@ -8,13 +8,13 @@ import Slider from "react-slick";
 function Socios() {
   const data = [{
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FABBVIE-LOGO.png?alt=media&token=d9821bfe-b80f-4e5c-98f4-0f1b2937172f",
-    name: "Abbie"
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fabbott.png?alt=media&token=d67247cf-4411-4507-bcf1-c411d8f86006",
+    name: "Abbott"
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fabbott.png?alt=media&token=d67247cf-4411-4507-bcf1-c411d8f86006",
-    name: "Abbott"
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FABBVIE-LOGO.png?alt=media&token=d9821bfe-b80f-4e5c-98f4-0f1b2937172f",
+    name: "Abbie"
   },
   {
     id: 3,

@@ -259,7 +259,7 @@ span {
   margin-top: 10vh;
   background-color: white;
   min-height: 60vh !important;
-
+  height: 100%;
 }
 
 iframe {
@@ -302,6 +302,7 @@ h4 {
     height: auto;
     width: auto;
     margin: auto;
+    margin-bottom: 2rem;
   }
 }
 
