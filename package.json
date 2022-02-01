@@ -16,8 +16,10 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.0.2",
     "react-scripts": "^3.0.1",
+    "react-slick": "^0.28.1",
     "react-tsparticles": "^1.38.0",
     "sass": "^1.49.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

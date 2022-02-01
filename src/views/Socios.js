@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/index.scss";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-
+import Slider from "react-slick";
 
 
 
@@ -122,27 +122,75 @@ function Socios() {
       img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FultragenyxPH-.png?alt=media&token=247be36e-c771-444e-a31b-3aaa67c78eed",
       name: "Ultragenyx"
     }];
+  const settings = {
+
+    ClassName: "row",
+
+    rows: 3,
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2500,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    swipeToSlide: true,
+    afterChange: function (index) {
+      console.log(
+        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      );
+    },
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          rows: 1,
+          slidesPerRow: 4,
+        }
+      }
+
+    ]
+  };
   return (
+
     <>
 
-      <section data-aos="fade-up" data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0" className="section sociost">
-
-        <div className="contenedor">
-          <h4 data-aos="fade-up"> Socios Comerciales</h4>
-          <div data-aos="fade-up" className="contenedor-socios">
-
-            {data.map((user) => (
-              <div data-aos="fade-up" key={user.id} className="socio">
-                <img src={user.img} alt="socio-gopharma" />
-              </div>
-            ))}
 
 
-          </div>
-        </div>
-      </section>
+      <div className=" sociost " data-aos="fade-up" >
+        <h4 data-aos="fade-up" className="pt-5"> Socios Comerciales</h4>
+        <Slider {...settings} >
+          {data.map((user) => (
+            <div className="col-sm socio " data-aos="fade-up" key={user.id} >
+              <img src={user.img} alt="socio-gopharma" />
+            </div>
+          ))}
+        </Slider>
+
+
+      </div>
+
 
 
     </>
