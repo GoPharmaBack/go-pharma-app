@@ -199,10 +199,12 @@ function Socios() {
 
       <div className=" sociost " data-aos="fade-up" >
         <h4 data-aos="fade-up" className="pt-5"> Socios Comerciales</h4>
+        <br />
         <Slider {...settings} >
           {data.map((user) => (
             <div className="col-sm socio " data-aos="fade-up" key={user.id} >
               <img src={user.img} alt="socio-gopharma" />
+              <br />
             </div>
           ))}
         </Slider>
