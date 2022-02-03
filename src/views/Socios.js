@@ -118,7 +118,7 @@ function Socios() {
   },
   {
     id: 23,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FSparksDorado.png?alt=media&token=8040b195-7f18-4749-8b7f-af3e2bb8a2d5",
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogoSparks.png?alt=media&token=0d3648a5-f310-4a9d-894d-ddb033894c62",
     name: "Sparks"
   },
   {
@@ -151,7 +151,7 @@ function Socios() {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2500,
+    speed: 3000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: false,
