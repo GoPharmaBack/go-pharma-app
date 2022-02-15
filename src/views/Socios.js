@@ -103,7 +103,7 @@ function Socios() {
   },
   {
     id: 20,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fsanofi.png?alt=media&token=3bf13a0d-69bf-4988-9b5d-fe118fa88dcb",
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fsanofi_nuevo.png?alt=media&token=ffdbc77c-c9cd-4f09-af71-42fe34736e4c",
     name: "Sanofi"
   },
   {
