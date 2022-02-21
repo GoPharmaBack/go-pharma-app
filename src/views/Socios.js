@@ -8,7 +8,7 @@ import Slider from "react-slick";
 function Socios() {
   const data = [{
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fabbott.png?alt=media&token=d67247cf-4411-4507-bcf1-c411d8f86006",
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fabbot-mex.png?alt=media&token=ac4e6a03-b7a0-4067-b419-de0ca8723a94",
     name: "Abbott"
   },
   {
