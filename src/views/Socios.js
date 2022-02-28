@@ -58,7 +58,7 @@ function Socios() {
   },
   {
     id: 11,
-    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogo_Chiesi.png?alt=media&token=aa106f7d-17df-4ab7-9f94-57e3b8c44ddb",
+    img: "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogoCHIESIRD.png?alt=media&token=0628e1cf-2eec-4e60-b60b-d6809f30896b",
     name: "Chiesi"
   },
   {
