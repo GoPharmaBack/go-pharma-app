@@ -4,13 +4,15 @@ import { ExternalLink } from "react-external-link";
 import * as FaIcons from "react-icons/fa";
 import 'aos/dist/aos.css';
 import logo from '../img/logo-responsive.svg';
+const Horizont = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FGrupo%201%402x.png?alt=media&token=4b70d1e5-3d9d-4230-ad8e-20d774c8ab92'
 
 const Footer = () => {
   return (
     <>
-      <section data-aos="fade-up" className=" background">
+      <section data-aos="fade-up" className="background">
         <div data-aos="fade-up" className="contenedor">
-          <h5 data-aos="fade-up">  <span role="img" aria-label="cohete">🚀</span> <br /> Conquistemos juntos nuevos horizontes. </h5>
+          <img src={Horizont} className="horizont" alt="" />
+          <h5 data-aos="fade-up">   Conquistemos juntos nuevos horizontes. </h5>
 
           <div className="suscribe-form">
             {/* Begin Mailchimp Signup Form */}

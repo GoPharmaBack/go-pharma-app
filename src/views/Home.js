@@ -54,8 +54,8 @@ function Home() {
           <h1 data-aos="fade-up">Go Pharma<sup>®</sup></h1>
           <h2 data-aos="fade-up">Somos una agencia de <span>CONSULTORÍA, MKT & MEDIA </span>especializada en el mercado <span>PHARMA</span> y el sector <span>SALUD. </span> Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a <span>RESULTADOS.</span></h2>
         </div>
-        <div className="contenedor container-3d" data-aos="fade-up">
-          <img src={Clay} alt="nube" data-aos="fade-up" />
+        <div className="contenedor container-3d" data-aos="fade-up" >
+          <img src={Clay} alt="nube" />
 
           {/* 
           <div className="container-star">

@@ -1,8 +1,17 @@
 import React, { Component } from "react";
 
 import axios from "axios";
-import Astronauta from "../img/ee.png";
+
 import 'aos/dist/aos.css';
+const Cohete = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FSpaceship.png?alt=media&token=8a39bf08-6961-496a-884f-7fadfe5a7f44'
+
+const Nube = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FCloud01.png?alt=media&token=53093a4f-51e5-4c9d-ab8d-4725fb73fb3f'
+
+
+const Star = "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FStar.png?alt=media&token=530337ee-8115-4965-86d0-4d1a713f4e3e"
+
+
+
 
 class ContactForm extends Component {
 
@@ -60,8 +69,23 @@ class ContactForm extends Component {
         <h1>Contacto</h1>
         <div className="contenedor contact_form">
           <img
-            className="astronauta"
-            src={Astronauta}
+            className="cohete-contacto"
+            src={Cohete}
+            alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
+          />
+          <img
+            className="nube-contacto"
+            src={Nube}
+            alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
+          />
+          <img
+            className="star-contacto"
+            src={Star}
+            alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
+          />
+          <img
+            className="cohete-contacto"
+            src={Cohete}
             alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
           />
           <form
