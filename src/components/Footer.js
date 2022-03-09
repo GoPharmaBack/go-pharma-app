@@ -12,7 +12,7 @@ const Footer = () => {
       <section data-aos="fade-up" className="background">
         <div data-aos="fade-up" className="contenedor">
           <img src={Horizont} className="horizont" alt="" />
-          <h5 data-aos="fade-up">   Conquistemos juntos nuevos horizontes. </h5>
+          <h5 data-aos="fade-up">   Conquistemos juntos<br /> nuevos horizontes. </h5>
 
           <div className="suscribe-form">
             {/* Begin Mailchimp Signup Form */}
@@ -24,8 +24,13 @@ const Footer = () => {
                   <label className="label-email" htmlFor="Email">Recibe nuestra señal hasta tu galaxia... </label>
                   <input type="email" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Escribe tu correo electrónico" required />
                   {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
-                  <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true"><input type="text" name="b_06fe9037f09561112ee0081d6_212f57f4e5" tabIndex={-1} defaultValue /></div>
-                  <div className="clear "><input type="submit" defaultValue="Subscribirse" name="Subscribirse" id="mc-embedded-subscribe" className="button btn-primario" /></div>
+                  <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true">
+
+                    <input type="text" name="b_06fe9037f09561112ee0081d6_212f57f4e5" tabIndex={-1} defaultValue />
+                  </div>
+                  <div className="clear ">
+
+                    <input type="submit" defaultValue="Subscribirse" name="Subscribirse" id="mc-embedded-subscribe" className="button btn-primario" /></div>
                 </div>
               </form>
             </div>

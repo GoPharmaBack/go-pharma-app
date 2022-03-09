@@ -2,6 +2,8 @@ import React from "react";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Socios from "../views/Socios";
 import Team from "../components/Team";
+const Star = "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FStar.png?alt=media&token=530337ee-8115-4965-86d0-4d1a713f4e3e"
+
 function Nosotros() {
   return (
     <>
@@ -53,20 +55,20 @@ function Nosotros() {
           <h2 data-aos="fade-up">PILARES</h2>
           <div className="contenedor-pilares">
             <div data-aos="fade-up" className="col">
-              <h3>1</h3>
+              <img src={Star} alt="" />
               <p className="h2">
                 Creamos vínculos basados en la credibilidad, confianza compromiso
                 y vulnerabilidad.
               </p>
             </div>
             <div data-aos="fade-up" className="col">
-              <h3>2</h3>
+              <img src={Star} alt="" />
               <p className="h2">
                 Trabajamos en equipo cuidando al máximo cada detalle.{" "}
               </p>
             </div>
             <div data-aos="fade-up" className="col">
-              <h3>3</h3>
+              <img src={Star} alt="" />
               <p className="h2">
                 Mantenemos el orden y constancia en todo momento.{" "}
               </p>
