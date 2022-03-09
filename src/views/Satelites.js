@@ -2,10 +2,10 @@ import React from 'react'
 
 function Satelites() {
   return (
-    <section>
-      <h1>Satelites</h1>
+    <section className="mt-5">
+      <h1>Satélites</h1>
       <div className="contenedor">
-        <a href="/" className="btn btn-primario">Youtube</a>
+        <a href="https://youtu.be/yc1wVjQkxz4" className="btn btn-primario">Youtube</a>
       </div>
 
     </section>

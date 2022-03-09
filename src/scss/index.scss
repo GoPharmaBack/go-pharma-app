@@ -198,6 +198,7 @@ section.section {
   min-height: 100vh;
   height: auto;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   opacity: 1;
@@ -1200,4 +1201,21 @@ ul {
 
 .console {
   border: 1px solid #1dfa00;
+}
+
+
+.container-3d{
+  display:flex;
+  flex-flow: row !important;
+  align-items: center;
+  justify-content:space-between;
+
+  img{
+    height:auto;
+    width: 100%;
+    max-width:80vw;
+    padding:1rem;
+    box-sizing:border-box;
+  }
+ 
 }
