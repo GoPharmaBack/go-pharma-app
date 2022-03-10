@@ -52,23 +52,23 @@ function Nosotros() {
       </section>
       <section data-aos="fade-up">
         <div className="contenedor pilares" data-aos="fade-up">
-          <h2 data-aos="fade-up">PILARES</h2>
+          <h1 data-aos="fade-up" class="aos-init aos-animate">PILARES</h1>
           <div className="contenedor-pilares">
             <div data-aos="fade-up" className="col">
-              <img src={Star} alt="" />
+              <img src={Star} className="img-star " alt="" />
               <p className="h2">
                 Creamos vínculos basados en la credibilidad, confianza compromiso
                 y vulnerabilidad.
               </p>
             </div>
             <div data-aos="fade-up" className="col">
-              <img src={Star} alt="" />
+              <img src={Star} className="img-star " alt="" />
               <p className="h2">
                 Trabajamos en equipo cuidando al máximo cada detalle.{" "}
               </p>
             </div>
             <div data-aos="fade-up" className="col">
-              <img src={Star} alt="" />
+              <img src={Star} className="img-star " alt="" />
               <p className="h2">
                 Mantenemos el orden y constancia en todo momento.{" "}
               </p>

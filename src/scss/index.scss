@@ -994,7 +994,7 @@ span {
   border-radius: 50%;
   box-shadow: 0 0 22px rgba(130, 34, 240, 0.795);
 
-  margin: 0 25px;
+  margin: auto;
   border: 5px solid rgba(189, 32, 252, 0.432);
   transition: all 0.6s ease-in-out;
 
@@ -1295,4 +1295,8 @@ ul {
   top: 0 !important;
   left: 0 !important; 
  }
+}
+
+.img-star{
+  margin: 2rem;
 }
