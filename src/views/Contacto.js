@@ -82,70 +82,80 @@ class ContactForm extends Component {
             src={Cohete}
             alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
           />
-          <form
-
-            className="formulario"
-            onSubmit={this.handleSubmit.bind(this)}
-            method="POST">
-
-            <div className="labelArea">
-
-              <input
-                placeholder="Nombre completo**"
-                type="text"
-                id="name"
-                value={this.state.name}
-                onChange={this.handleChange.bind(this)}
-                required
-              />
+          <div className="contenedor-form d-flex">
+            <div className="col">
+              <h2>¡Tienes un proyecto! Conversemos</h2>
+              <p>¡Gracias por ponerse en contacto! <br />
+                Llena el formulario,<br />
+                ¡que tengas un excelente día!</p>
             </div>
+            <div className="col">
+              <form
 
-            <div className="labelArea">
-              <input
-                placeholder="Correo electrónico**"
-                type="email"
-                id="email"
-                value={this.state.email}
-                onChange={this.handleChange.bind(this)}
-                required
-              />
+                className="formulario"
+                onSubmit={this.handleSubmit.bind(this)}
+                method="POST">
+
+                <div className="labelArea">
+
+                  <input
+                    placeholder="Nombre completo**"
+                    type="text"
+                    id="name"
+                    value={this.state.name}
+                    onChange={this.handleChange.bind(this)}
+                    required
+                  />
+                </div>
+
+                <div className="labelArea">
+                  <input
+                    placeholder="Correo electrónico**"
+                    type="email"
+                    id="email"
+                    value={this.state.email}
+                    onChange={this.handleChange.bind(this)}
+                    required
+                  />
+                </div>
+
+                <div className="labelArea">
+                  <input
+                    placeholder="Teléfono"
+                    type="phone"
+                    id="phone"
+                    value={this.state.phone}
+                    onChange={this.handleChange.bind(this)}
+                  />
+                </div>
+
+                <div className="labelArea">
+                  <textarea
+                    placeholder="¿Cómo podemos ayudarte?**"
+                    id="message"
+                    value={this.state.message}
+                    onChange={this.handleChange.bind(this)}
+                    required
+                  />
+                </div>
+
+                <small >
+                  ** información requerida
+                  <br />
+                  Al enviar este formulario, se le agregará a nuestra lista de correo.
+                </small>
+
+                <br />
+
+                <button className="btn-primario" type="submit">
+                  {buttonText}
+                </button>
+
+                <br />
+
+              </form>
             </div>
-
-            <div className="labelArea">
-              <input
-                placeholder="Teléfono"
-                type="phone"
-                id="phone"
-                value={this.state.phone}
-                onChange={this.handleChange.bind(this)}
-              />
-            </div>
-
-            <div className="labelArea">
-              <textarea
-                placeholder="¿Cómo podemos ayudarte?**"
-                id="message"
-                value={this.state.message}
-                onChange={this.handleChange.bind(this)}
-                required
-              />
-            </div>
-
-            <small >
-              ** información requerida
-              <br />
-              Al enviar este formulario, se le agregará a nuestra lista de correo.
-            </small>
-
-            <br />
-
-            <button className="btn-primario" type="submit">
-              {buttonText}
-            </button>
-
-            <br />
-
-          </form>
+          </div>
         </div>
       </section>
     )

@@ -21,7 +21,7 @@ const Wrapper = ({ children }) => {
   }, [location.pathname])
   return children
 }
-function GeneralRouter() {
+function GeneralRouter () {
   return (
     <>
 

@@ -441,7 +441,7 @@ iframe {
 .filosofia {
   box-sizing: border-box;
   min-height: auto !important;
-height: auto !important;
+  height: auto !important;
   .contenedor {
     justify-content: center;
     text-align: center;
@@ -1229,6 +1229,7 @@ ul {
   justify-content: space-between;
 
   img {
+    margin: auto;
     height: auto;
     width: 100%;
     max-width: 80vw;

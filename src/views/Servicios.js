@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import 'aos/dist/aos.css' // You can also use <link> for styles
 
-function Servicios() {
+function Servicios () {
   return (
     <section className="section background" >
       <div className="contenedor servicios">
