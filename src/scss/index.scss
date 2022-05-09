@@ -1270,6 +1270,23 @@ ul {
 
   .contenedor-beneficios-lista {
     display: flex;
+    .col {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      img {
+        padding: 1rem;
+      }
+    }
+
+    .k {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-flow: column;
+    }
+    .texto {
+      width: 100%;
+    }
     @include tablet {
       flex-flow: column;
     }

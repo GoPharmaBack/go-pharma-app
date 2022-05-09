@@ -31,8 +31,10 @@ function Nosotros () {
                     src={Star}
                     alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
                   />
+                  <div className="texto">
                   <p className="titulo" data-aos="fade-up">Misión</p>
                   <p data-aos="fade-up" className="h4 aos-init aos-animate">Desarrollamos estrategias personalizadas encaminadas a que nuestros clientes logren comunicar estratégicamente el valor de su producto o servicio para alcanzar sus metas y objetivos </p>
+                 </div>
                 </div>
                 <div className="col">
                   <img
@@ -40,8 +42,10 @@ function Nosotros () {
                     src={Star}
                     alt="Go-pharma, MKT MEDIA especializada en el mercado PHARMA y el sector SALUD."
                   />
+                  <div className="texto">
                   <p className="titulo" data-aos="fade-up">Nuestra Experiencia</p>
                   <p data-aos="fade-up" className="h4 aos-init aos-animate">Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras. </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -50,7 +54,7 @@ function Nosotros () {
             <div className="contenedor-beneficios pilares">
               <h3 data-aos="fade-up" className='text-left'>NUESTROS PILARES</h3>
               <div className="contenedor-beneficios-lista" data-aos="fade-up">
-                <div className="col p-2">
+                <div className="col k p-2">
                   <img
                     className="img-responsive"
                     src={Star}
@@ -59,7 +63,7 @@ function Nosotros () {
                   <p className="titulo" data-aos="fade-up">Confianza</p>
                   <p data-aos="fade-up" className="h4 aos-init aos-animate">Creamos vínculos basados en la credibilidad, co nfianza compromiso y vulnerabilidad. </p>
                 </div>
-                <div className="col p-2">
+                <div className="col k p-2">
                   <img
                     className="img-responsive"
                     src={Star}
@@ -69,7 +73,7 @@ function Nosotros () {
                   <p data-aos="fade-up" className="h4 aos-init aos-animate">Trabajamos en equipo cuidando al máximo cada detalle.
                   </p>
                 </div>
-                <div className="col p-2">
+                <div className="col k p-2">
                   <img
                     className="img-responsive"
                     src={Star}
