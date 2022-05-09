@@ -8,7 +8,6 @@ html {
 /*16px*/
 
 body {
-
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.4;
@@ -35,11 +34,8 @@ h5,
 }
 
 h1 {
-
   margin: 0;
   font-size: calc(1rem + 2.6vw);
-
-
 }
 
 h2,
@@ -50,6 +46,9 @@ h2,
   color: white !important;
   font-size: 3.5vh;
   font-weight: 600;
+  @include phone {
+    font-size: 1.4rem !important;
+  }
 }
 
 h3 {
@@ -57,8 +56,6 @@ h3 {
 }
 
 h4 {
-
-
   font-size: calc(1rem + 1.8vw);
 }
 
@@ -82,9 +79,11 @@ small,
   font-size: calc(0.2rem + 1.2vw);
   font-weight: bold;
   margin-bottom: 1rem;
+  @include tablet {
+    font-size: 1.5rem;
+  }
 }
 
 .slick-dots li button:before {
   color: #5e08c0 !important;
-
 }
