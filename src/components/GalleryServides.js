@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Carousel from 'react-grid-carousel'
 
-function GalleryServides() {
+function GalleryServides () {
   return <>
     <Carousel cols={2} rows={1} gap={10} loop>
       <Carousel.Item>
@@ -18,7 +18,7 @@ function GalleryServides() {
       </Carousel.Item>
       {/* ... */}
     </Carousel>
-  </>;
+  </>
 }
 
-export default GalleryServides;
+export default GalleryServides

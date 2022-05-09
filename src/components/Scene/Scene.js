@@ -1,6 +1,6 @@
 import React from 'react'
-import "../Scene/scene.scss"
-function Scene() {
+import '../Scene/scene.scss'
+function Scene () {
   return (
     <div className="scene" data-aos="fade-up-left">
       <div className="ebook rotation">

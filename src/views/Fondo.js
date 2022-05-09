@@ -1,14 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-function Fondo() {
-
+function Fondo () {
   return <>
     <section className="section">
       <div className="contenedor">
 
       </div>
     </section>
-  </>;
+  </>
 }
 
-export default Fondo;
+export default Fondo

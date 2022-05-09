@@ -1,9 +1,8 @@
-import React from 'react';
-import { Link } from "react-router-dom";
-//import Imagen from "../img/DigitalMKTPharma.png"
+import React from 'react'
+import { Link } from 'react-router-dom'
+// import Imagen from "../img/DigitalMKTPharma.png"
 
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
+import 'aos/dist/aos.css' // You can also use <link> for styles
 
 function Servicios() {
   return (
@@ -29,7 +28,6 @@ function Servicios() {
               <img src="https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/services%2FBrand-Strategy.png?alt=media&token=4cce3bcb-8b2f-4456-94ec-44a3aff07f61" alt="" />
               <p className="titulo">BRAND STRATEGY & PHARMA VISUAL CONCEPT </p>
               <p>En alianza con nuestros clientes y conjunto a nuestro gran equipo creativo, damos vida y personalidad a las marcas, incluso dentro del mercado farmacéutico, nos caracterizan nuestras propuestas innovadoras, que aseguran marcar el paso a la siguiente generación </p>
-
 
             </div>
             <div className="servicio" data-aos="fade-in">
@@ -71,7 +69,6 @@ function Servicios() {
               <p className="titulo">SOCIAL MEDIA ENGAGEMENT  </p>
               <p>La omnicanalidad es un concepto cada vez más conocido y necesario para las marcas de todas las industrias, un punto clave para este contacto son las redes sociales, con contenido y formatos clave nos aseguramos de ser aliados de valor.  </p>
 
-
             </div>
             <div className="servicio" data-aos="fade-in">
               <img src="https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/services%2FWeb-%26-app-Development.png?alt=media&token=0121cdc5-1031-4645-90cd-0d5c5dc158ca" alt="" />
@@ -89,8 +86,7 @@ function Servicios() {
             <div className="servicio" data-aos="fade-in">
               <img src="https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/services%2FStreaming-%26-Live-Production.png?alt=media&token=1f3c4b49-ec8f-47f9-8f7c-a086516faca7" alt="" />
               <p className="titulo">STREAMING & LIVE PRODUCTION  </p>
-              <p>El FORO GO PHARMA está equipado para satisfacer las nuevas necesidades digitales de nuestros clientes, desde eventos EN VIVO hasta capacitaciones grabadas, hemos sumado nuestros servicios de producción de video a las estrategias comerciales de nuestros clientes.   </p>
-
+              <p>El FORO GO PHARMA está equipado para satisfacer las nuevas necesidades digitales de nuestros clientes, desde eventos EN VIVO hasta capacitaciones grabadas, hemos sumado nuestros servicios de producción de video a las estrategias comerciales de nuestros clientes. </p>
 
             </div>
             <div className="servicio" data-aos="fade-in">

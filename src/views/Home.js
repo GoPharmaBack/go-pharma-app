@@ -1,15 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'
 
-import logo from '../img/logo-responsive.svg';
-import Slogan from '../img/we-go-beyond.svg';
-import '../scss/index.scss';
+import logo from '../img/logo-responsive.svg'
+import Slogan from '../img/we-go-beyond.svg'
+import '../scss/index.scss'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
 
-import Socios from '../views/Socios';
+import Socios from '../views/Socios'
 import Team from '../components/Team'
-
 
 const Clay = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2Fclay%402x.png?alt=media&token=847a0e52-0aae-4730-b2fc-f58f896961e1'
 // const PlanetaNube2 = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FCloud%20%26%20Planet%2002.png?alt=media&token=da2433b1-41d7-4522-b3b9-9965276fce53'
@@ -20,10 +19,8 @@ const Clay = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.apps
 
 // const Star = "https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FStar.png?alt=media&token=530337ee-8115-4965-86d0-4d1a713f4e3e"
 
-function Home() {
-
+function Home () {
   useEffect(() => {
-
     AOS.init({
       offset: 120,
       delay: 20,
@@ -32,22 +29,17 @@ function Home() {
       debounceDelay: 50,
       throttleDelay: 99,
       mirror: false,
-      anchorPlacement: 'bottom-top',
-    });
+      anchorPlacement: 'bottom-top'
+    })
   }, [])
-
 
   return (
     <>
-
 
       <header data-aos="fade-in" className="App-header-hero">
         <img src={logo} className="App-logo" alt="logo go-pharma" />
         <img src={Slogan} className="slogan-img" alt="we go beyons the horizon" />
       </header>
-
-
-
 
       <section data-aos="fade-up" className="section">
         <div className="contenedor" data-aos="fade-up">
@@ -57,7 +49,7 @@ function Home() {
         <div className="contenedor container-3d" data-aos="fade-up" >
           <img src={Clay} alt="nube" />
 
-          {/* 
+          {/*
           <div className="container-star">
             <img src={Star} alt="Star" data-aos="fade-up" />
             <img src={Star} alt="Star" data-aos="fade-up" />
@@ -100,7 +92,7 @@ function Home() {
       <Socios />
 
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home

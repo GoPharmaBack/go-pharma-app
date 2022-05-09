@@ -1,9 +1,7 @@
 import React from 'react'
 
-
-
-function Error() {
-  console.log("Error");
+function Error () {
+  console.log('Error')
   return (
     <>
       <section className="section" data-aos="fade-in">

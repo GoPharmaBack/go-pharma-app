@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Satelites() {
+function Satelites () {
   return (
     <section className="mt-5">
       <h1>Satélites</h1>

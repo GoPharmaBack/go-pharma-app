@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Aviso() {
+function Aviso () {
   return (
     <section data-aos="fade-up" className="section">
       <div className="contenedor aviso-contenedor">
-        <h1  >AVISO DE PRIVACIDAD INTEGRAL<br />
+        <h1 >AVISO DE PRIVACIDAD INTEGRAL<br />
           REDES SOCIALES Y WEB</h1>
 
         <p className="titulo">¿Quién es el responsable de sus datos personales?</p>
@@ -146,10 +146,8 @@ function Aviso() {
         <p className="titulo">Dudas o aclaraciones</p>
         <p>En caso de tener dudas o aclaraciones sobre el presente Aviso de Privacidad, puede contactar a nuestro
           Departamento de Datos Personales a través del correo electrónico info@go.pharma.mx.</p>
-        <p style={{ textAlign: "right" }}>Última actualización: 01 de octubre de 2021</p>
+        <p style={{ textAlign: 'right' }}>Última actualización: 01 de octubre de 2021</p>
       </div>
-
-
 
     </section>
   )

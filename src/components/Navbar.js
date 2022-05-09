@@ -1,40 +1,37 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { ExternalLink } from "react-external-link";
-import * as FaIcons from "react-icons/fa";
+import { ExternalLink } from 'react-external-link'
+import * as FaIcons from 'react-icons/fa'
 
-//import Logo from "../../img/logo.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+// import Logo from "../../img/logo.png";
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
 
-function Navbar() {
-  const [click, setClick] = useState(false);
+function Navbar () {
+  const [click, setClick] = useState(false)
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
   useEffect(() => {
-    navegador();
-  });
+    navegador()
+  })
   const navegador = () => {
-    var navScr = document.getElementById("navScr");
+    const navScr = document.getElementById('navScr')
     window.onscroll = function () {
       if (
         document.body.scrollTop >= 30 ||
         document.documentElement.scrollTop >= 30
       ) {
-        navScr.classList.add("nav-colored");
-        navScr.classList.remove("nav-transparent");
+        navScr.classList.add('nav-colored')
+        navScr.classList.remove('nav-transparent')
       } else {
-        navScr.classList.add("nav-transparent");
-        navScr.classList.remove("nav-colored");
+        navScr.classList.add('nav-transparent')
+        navScr.classList.remove('nav-colored')
       }
-    };
-  };
-
-
+    }
+  }
 
   useEffect(() => {
-
     AOS.init({
       offset: 120,
       delay: 20,
@@ -43,19 +40,18 @@ function Navbar() {
       debounceDelay: 50,
       throttleDelay: 99,
       mirror: false,
-      anchorPlacement: 'bottom-top',
-    });
+      anchorPlacement: 'bottom-top'
+    })
   }, [])
 
-
-  const Logo = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/Logo_GoPharma.png?alt=media&token=7a044cb4-fb09-4588-b43a-c45fc180351f';
+  const Logo = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/Logo_GoPharma.png?alt=media&token=7a044cb4-fb09-4588-b43a-c45fc180351f'
   return (
     <nav id="navScr" className="navbar " data-aos="fade-in">
       <NavLink to="/" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
         <img className="mt-1 logo-nav" src={Logo} alt="go-pharma" />
 
       </NavLink>
-      <ul className={click ? "navbar_menu active " : "navbar_menu"}>
+      <ul className={click ? 'navbar_menu active ' : 'navbar_menu'}>
         <NavLink to="/" className="navbar_menu_link home-icon" onClick={closeMobileMenu}>
           <FaIcons.FaHome />
         </NavLink>
@@ -102,8 +98,7 @@ function Navbar() {
       </div>
 
     </nav>
-  );
+  )
 }
 
-
-export default Navbar;
+export default Navbar

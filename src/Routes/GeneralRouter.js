@@ -1,29 +1,27 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import Home from '../views/Home'
-import Navbar from "../components/Navbar"
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Error404 from "../views/Error404"
-import Servicios from "../views/Servicios"
-import Nosotros from "../views/Nosotros"
-import Socios from "../views/Socios"
-import Contacto from "../views/Contacto"
-import Aviso from "../views/Aviso"
-import Sucess from "../views/Sucess"
+import Error404 from '../views/Error404'
+import Servicios from '../views/Servicios'
+import Nosotros from '../views/Nosotros'
+import Socios from '../views/Socios'
+import Contacto from '../views/Contacto'
+import Aviso from '../views/Aviso'
+import Sucess from '../views/Sucess'
 import Error from '../views/Error'
 import Fondo from '../views/Fondo'
 import Satelites from '../views/Satelites'
-import { useLayoutEffect } from 'react'
 
 const Wrapper = ({ children }) => {
-  const location = useLocation();
+  const location = useLocation()
   useLayoutEffect(() => {
-    document.documentElement.scrollTo(0, 0);
-  }, [location.pathname]);
+    document.documentElement.scrollTo(0, 0)
+  }, [location.pathname])
   return children
 }
 function GeneralRouter() {
-
   return (
     <>
 

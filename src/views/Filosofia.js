@@ -1,6 +1,6 @@
 import React from 'react'
-import 'aos/dist/aos.css';
-function Filosofia() {
+import 'aos/dist/aos.css'
+function Filosofia () {
   return (
     <>
       <section className="section filosofia" data-aos="fade-up">

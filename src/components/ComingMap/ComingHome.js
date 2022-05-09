@@ -1,7 +1,7 @@
 import React from 'react'
-import "../ComingMap/ComingHome.scss"
+import '../ComingMap/ComingHome.scss'
 
-function ComingHome() {
+function ComingHome () {
   return (
     <section id="solar-system">
       <div id="sun" />
