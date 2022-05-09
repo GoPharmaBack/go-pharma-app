@@ -11,7 +11,7 @@ function Nosotros () {
     <>
       <section className="section nosotros" data-aos="fade-up">
         <div className="container">
-          <div className="row" data-aos="fade-up">
+          <div className="row-nosotros" data-aos="fade-up">
             <div className="col">
               <h1 className="title">Nosotros</h1>
             </div>

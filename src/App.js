@@ -1,9 +1,10 @@
 import React from 'react'
 import Particles from 'react-tsparticles'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import './scss/index.scss'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+// import 'slick-carousel/slick/slick.css'
+// import 'slick-carousel/slick/slick-theme.css'
 import GeneralRouter from './Routes/GeneralRouter'
 import DotRing from './components/dot/DotRing'
 

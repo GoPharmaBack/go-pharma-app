@@ -84,7 +84,7 @@ class ContactForm extends Component {
           />
           <div className="contenedor-form d-flex">
             <div className="col">
-              <h2>¡Tienes un proyecto! Conversemos</h2>
+              <h2>¡Tienes un proyecto!<br /> Conversemos</h2>
               <p>¡Gracias por ponerse en contacto! <br />
                 Llena el formulario,<br />
                 ¡que tengas un excelente día!</p>

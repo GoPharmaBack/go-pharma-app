@@ -77,7 +77,7 @@ function Home () {
       </section>
 
       <section className="section filosofia" data-aos="fade-up">
-        <div className="contenedor ">
+        <div className="container-fluid ">
           <div className="texto">
             <h3 data-aos="fade-up">NUESTRA FILOSOFÍA</h3>
             <h4 data-aos="fade-up"> PATIENT CENTRICITY </h4>

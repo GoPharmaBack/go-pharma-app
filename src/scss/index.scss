@@ -1095,7 +1095,8 @@ span {
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-
+    margin: auto;
+    width: 100%;
     input:focus {
       border: 1px solid #3a0d70;
     }
@@ -1141,7 +1142,8 @@ span {
   //animation: float 6s ease-in-out infinite;
 
   @include phone {
-    margin-top: 10vh;
+    margin-top: -2vh;
+    max-width: 10vh;
   }
 }
 .nube-contacto {
@@ -1173,7 +1175,7 @@ span {
   //animation: float 6s ease-in-out infinite;
 
   @include phone {
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 }
 
@@ -1297,3 +1299,115 @@ ul {
     height: auto !important;
   }
 }
+
+.row-nosotros {
+  max-width: 1080px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  .col {
+    flex: 1;
+  }
+}
+.contenedor-swipe {
+  margin-top: 12vh;
+  min-height: 50vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  flex-flow: column-reverse !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100px;
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.socio {
+  display: flex;
+  flex-flow: column;
+}
+
+.contenedor-swipe {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.mySwiper {
+  display: flex !important;
+  flex-flow: column !important;
+  border: 1px solid red !important;
+}
+
+.contenedor-form {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: center;
+  @include tablet {
+    text-align: center !important;
+    flex-flow: column;
+  }
+  .col {
+    flex: 1;
+    padding: 1rem;
+    .formulario {
+      width: 100%;
+    }
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 2rem;
+  margin-top: 2rem;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $App1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 0.3;
+  background: #6403db !important;
+}
+
