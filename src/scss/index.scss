@@ -1259,7 +1259,13 @@ ul {
 
   .contenedor-beneficios-lista {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
     .col {
+      max-width: 50%;
+      width: 100%;
+      flex: 1;
       display: flex;
       align-items: flex-start;
       justify-content: center;

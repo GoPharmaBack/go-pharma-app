@@ -24,15 +24,14 @@ const Wrapper = ({ children }) => {
 function GeneralRouter () {
   return (
     <>
-
       <BrowserRouter>
         <Wrapper>
-          <Routes >
+          <Routes>
             <Route path='/fondo' element={<Fondo />} />
           </Routes>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='*' element={<Error404 />} />
             <Route path='/servicios' element={<Servicios />} />
             <Route path='/nosotros' element={<Nosotros />} />
