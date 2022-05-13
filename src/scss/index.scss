@@ -291,6 +291,10 @@ span {
     img {
       max-width: 180px !important;
       max-height: 80px !important;
+      @include tablet {
+        max-width: 100px !important;
+        max-height: 50px !important;
+      }
     }
   }
 }
