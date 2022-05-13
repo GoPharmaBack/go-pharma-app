@@ -48,7 +48,7 @@ $App1: #533278;
 
 body {
   height: 100%;
-  background: linear-gradient(#1d0041, #260d47, #310755, #21043a, #10041f);
+  background: linear-gradient(#1d0041, #260d47, $app-3, #21043a, #10041f);
   background: #1a0535;
 
   @include tablet {
@@ -827,7 +827,9 @@ span {
   margin-top: 12vh;
   min-height: 70vh;
   height: auto;
-  h2 {
+  h3 {
+    background-color: $app-3;
+    color: $app-3 !important;
     font-size: 1.4rem;
     text-align: left;
   }
@@ -843,8 +845,7 @@ span {
 }
 
 .pilares {
-  padding: 1rem;
-  margin-bottom: 15vh;
+  padding-bottom: 10vh;
 
   display: flex;
   align-items: center;
@@ -1106,13 +1107,13 @@ span {
   }
 }
 
-.cohete-contacto {
+.nube-contacto{
   position: absolute;
-  top: 7vh;
+  top: 3vh;
   z-index: -1;
   left: 20%;
   width: 100%;
-  max-height: 200px;
+  max-height: 150px;
   width: auto;
   margin-right: 2rem;
   transform: translatey(0px);
@@ -1123,7 +1124,7 @@ span {
     max-width: 10vh;
   }
 }
-.nube-contacto {
+.cohete-contacto  {
   position: absolute;
   bottom: 25vh;
   z-index: -1;
@@ -1236,7 +1237,12 @@ ul {
 .img-star {
   margin: 2rem;
 }
-
+.beneficios,
+.pilares {
+  padding-top: 2rem;
+  width: 100vw;
+  background-color: #f1e4ff;
+}
 .contenedor-beneficios {
   display: flex;
   max-width: 1080px;
@@ -1245,7 +1251,11 @@ ul {
   flex-flow: column;
   text-align: left;
   justify-content: center;
-  color: white;
+  color: $app-3;
+
+  span {
+    font-weight: bolder !important;
+  }
 
   .contenedor-beneficios-lista {
     display: flex;
@@ -1259,6 +1269,8 @@ ul {
     }
 
     .k {
+      margin-left: 1rem;
+      flex: 1;
       align-items: flex-start;
       justify-content: flex-start;
       flex-flow: column;
@@ -1275,6 +1287,12 @@ ul {
   section {
     height: auto !important;
   }
+  @include tablet {
+    section {
+      font-size: calc(0.5vw + 0.63rem) !important;
+      height: auto !important;
+    }
+  }
 }
 
 .row-nosotros {
@@ -1283,6 +1301,9 @@ ul {
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
+  @include tablet {
+    flex-flow: column;
+  }
   .col {
     flex: 1;
   }
