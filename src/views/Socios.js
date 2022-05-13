@@ -161,7 +161,7 @@ export default function Socios () {
   return (
     <>
       <section className='sociost'>
-        <h3>Socios Comerciales</h3>
+        <h4>Socios Comerciales</h4>
         <Swiper
           slidesPerView={3}
           autoplay={{
@@ -184,7 +184,7 @@ export default function Socios () {
               <img
                 src={partner.img}
                 className='socioimg'
-                alt='socio-gopharma'
+                alt={partner.name}
               />
             </SwiperSlide>
           ))}
