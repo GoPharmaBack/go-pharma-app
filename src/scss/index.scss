@@ -1107,7 +1107,7 @@ span {
   }
 }
 
-.nube-contacto{
+.nube-contacto {
   position: absolute;
   top: 3vh;
   z-index: -1;
@@ -1124,7 +1124,7 @@ span {
     max-width: 10vh;
   }
 }
-.cohete-contacto  {
+.cohete-contacto {
   position: absolute;
   bottom: 25vh;
   z-index: -1;
@@ -1301,6 +1301,10 @@ ul {
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
+  margin: auto;
+  h2 {
+    text-align: left !important;
+  }
   @include tablet {
     flex-flow: column;
   }

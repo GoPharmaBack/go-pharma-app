@@ -18,7 +18,7 @@ function Nosotros () {
               <h1 className='title'>Nosotros</h1>
             </div>
             <div className='col '>
-              <h2>
+              <h2 style={{ textAllign: 'left !important' }}>
                 Somos una agencia de <span>CONSULTORÍA, MKT &amp; MEDIA </span>
                 especializada en el mercado <span>PHARMA</span> y el sector{' '}
                 <span>SALUD. </span> Desarrollamos estrategias integradas desde
