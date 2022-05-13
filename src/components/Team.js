@@ -59,7 +59,8 @@ function Team () {
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team20.png?alt=media&token=58d792f4-a730-4648-a21d-f122e694e3b3',
       name: 'Ricardo Ovando Fernández',
       position: 'Sr. Pharma Designer',
-      hobbies: 'Reposteria y pasteleria, coleccionar álbumes musicales ,cantar o bailar'
+      hobbies:
+        'Reposteria y pasteleria, coleccionar álbumes musicales ,cantar o bailar'
     },
     {
       id: 9,
@@ -129,7 +130,8 @@ function Team () {
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team4.png?alt=media&token=e62a72bf-02a3-429c-9954-cbc918f66841',
       name: 'Maria Cristina Villagómez Hoyos',
       position: 'Finance Head',
-      hobbies: 'Ver peliculas de miedo, pasar tiempo con sus hijos, actualizarse'
+      hobbies:
+        'Ver peliculas de miedo, pasar tiempo con sus hijos, actualizarse'
     },
     {
       id: 19,
@@ -182,40 +184,50 @@ function Team () {
       hobbies: 'Ver peliculas, escuchar la radio'
     }
   ]
-  return <>
+  return (
+    <>
+      <section data-aos='fade-up' className='Team section'>
+        <div className='contenedor '>
+          <div className='texto mt-3 mb-4 ' data-aos='fade-up'>
+            <h3>
+              GO PHARMA<sup>®</sup> TEAM
+            </h3>
+            <p className='h2'>
+              Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la
+              industria <span>PHARMA</span> en áreas como:{' '}
+              <span>
+                MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO,
+                PUBLIC AFFAIRS, PROGRAMAS de PACIENTES, FARMACOECONOMÍA y
+                COMUNICACIÓN.
+              </span>{' '}
+              Contamos con experiencia en manejo de productos de diversas áreas
+              terapéuticas:{' '}
+              <span>
+                ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA,
+                DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,
+              </span>{' '}
+              entre otras.
+            </p>
+          </div>
+          <br />
+          <div className='main mt-3  '>
+            {data.map((user) => (
+              <div className='profile-card ' key={user.id} data-aos='fade-up'>
+                <div className='img'>
+                  <img src={user.img} alt='go-pharma-team' />
+                </div>
 
-    <section data-aos="fade-up" className="Team section">
-
-      <div className="contenedor ">
-        <div className="texto mt-3 mb-4 " data-aos="fade-up">
-          <h3>GO PHARMA<sup>®</sup> TEAM</h3>
-          <p className="h2">Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la industria <span>PHARMA</span> en áreas como: <span>MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO, PUBLIC AFFAIRS,  PROGRAMAS de PACIENTES, FARMACOECONOMÍA y COMUNICACIÓN.</span> Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: <span>ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,</span> entre otras.</p>
-        </div>
-        <br />
-        <div className="main mt-3  ">
-          {data.map((user) => (
-            <div className="profile-card " key={user.id} data-aos="fade-up">
-              <div className="img">
-                <img src={user.img} alt="go-pharma-team" />
+                <div className='caption mt-3 '>
+                  <h3>{user.name}</h3>
+                  <p>{user.position}</p>
+                </div>
               </div>
-
-              <div className="caption mt-3 ">
-                <h3 >{user.name}</h3>
-                <p>{user.position}</p>
-
-              </div>
-            </div>
-          ))
-
-          }
-
+            ))}
+          </div>
         </div>
-
-      </div>
-
-    </section>
-
-  </>
+      </section>
+    </>
+  )
 }
 
 export default Team
