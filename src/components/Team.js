@@ -9,109 +9,109 @@ function Team () {
       id: 1,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team9.png?alt=media&token=697585e8-63ce-4857-bdc6-c99c40792f6d',
       name: 'Frank Valdez Tapia',
-      Position: 'CEO'
+      position: 'CEO'
     },
     {
       id: 2,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FCARO_Avatar_GO-02.png?alt=media&token=1daad0f9-4b89-4a25-938a-9c2c51da7cbb',
       name: 'Carolina Fernández',
-      Position: 'Art & Audiovisual Director '
+      position: 'Art & Audiovisual Director '
     },
     {
       id: 3,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FROSA_Avatar_GO-02.png?alt=media&token=4d323b7b-97ed-4e3a-846c-6d285e92dafb',
       name: 'Rosa Brena ',
-      Position: 'Medical Manager '
+      position: 'Medical Manager '
     },
     {
       id: 4,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team4.png?alt=media&token=e62a72bf-02a3-429c-9954-cbc918f66841',
       name: 'Cristina Villagomez ',
-      Position: 'Finance Head '
+      position: 'Finance Head '
     },
     {
       id: 5,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FILEANA_Avatar_GO-02.png?alt=media&token=f1f2b1aa-2a8c-48eb-b41b-48178719b37f',
       name: 'Ileana Salcedo',
-      Position: 'Mkt & Commercial Director'
+      position: 'Mkt & Commercial Director'
     },
     {
       id: 6,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team23.png?alt=media&token=4504caaa-d686-42bb-b415-6e0ecc4234ec',
       name: 'Marisol Molina Medina  ',
-      Position: 'MSL'
+      position: 'MSL'
     },
     {
       id: 7,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FSELE_Avatar_GO-02-02.png?alt=media&token=5186550a-6afe-48d3-a544-087705f1810f',
       name: 'Selene Meraz',
-      Position: 'Pharma Designer Sr.'
+      position: 'Pharma Designer Sr.'
     },
     {
       id: 8,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FVIC_Avatar_GO-02.png?alt=media&token=9fe7f1ad-15f2-4bfc-9fac-9db6c8238365',
       name: 'Victoria García Zúñiga',
-      Position: 'Video Manager'
+      position: 'Video Manager'
     },
     {
       id: 9,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team10.png?alt=media&token=2371074e-965f-43b0-9129-42bf061a3766',
       name: 'Enrique Alvarado Arenas',
-      Position: '3D Animation'
+      position: '3D Animation'
     },
     {
       id: 10,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team14.png?alt=media&token=c669c901-4dd2-49ec-936b-a8440f763a88',
       name: 'Diana Jiménez',
-      Position: 'HR Director'
+      position: 'HR Director'
     },
     {
       id: 11,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FKARY_Avatar_GO-02.png?alt=media&token=abba1756-da8f-45c1-9c5a-9d963e7efc54',
       name: 'Karina Fonseca',
-      Position: 'Design Manager '
+      position: 'Design Manager '
     },
     {
       id: 12,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team5.png?alt=media&token=c36759cb-2d46-4ae9-9769-b7ee46e70856',
       name: 'Armando Boyzo',
-      Position: 'Digital Manager'
+      position: 'Digital Manager'
     },
     {
       id: 13,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team1.png?alt=media&token=e3ad7729-f618-4501-bac4-4aae7132abd6',
       name: 'Christopher Chavira',
-      Position: 'Mkt Coordinator Jr.'
+      position: 'Mkt Coordinator Jr.'
     },
     {
       id: 14,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team15.png?alt=media&token=2b4035bd-0880-4484-89f1-7db699b84b7a',
       name: 'Arturo Sánchez',
-      Position: 'Creative Manager '
+      position: 'Creative Manager '
     },
     {
       id: 15,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team16.png?alt=media&token=095b5716-a45e-4448-81c9-7825d984270c',
       name: 'Víctor Cortés ',
-      Position: 'Legal Head'
+      position: 'Legal Head'
     },
     {
       id: 16,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2FALFREDO_Avatar_GO-02.png?alt=media&token=50cc9a35-25ce-4484-bdba-25489cd61f38',
       name: 'Alfredo Victoria',
-      Position: 'Production Manager'
+      position: 'Production Manager'
     },
     {
       id: 17,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team19.png?alt=media&token=7a2aa663-fa07-4b30-9018-331e73ca24f5',
       name: 'Ricardo Perera',
-      Position: 'SKIN DER Supply'
+      position: 'SKIN DER Supply'
     },
     {
       id: 18,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team8.png?alt=media&token=569b95a4-7ed8-461f-9dac-67c53d852baa',
       name: 'Hugo Rosales ',
-      Position: 'Movility'
+      position: 'Movility'
     }
   ]
   return (
