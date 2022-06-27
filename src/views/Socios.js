@@ -83,7 +83,7 @@ const partners = [
   },
   {
     id: 14,
-    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FGrupoVal.png?alt=media&token=031e305a-750b-42c7-8583-8c90967a15d6',
+    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FgrupoVal.svg?alt=media&token=af234288-29b7-4692-93f3-72c05e8cd25d',
     name: 'Grupo Val'
   },
   {
@@ -95,6 +95,11 @@ const partners = [
     id: 16,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fjanssen.png?alt=media&token=b94f7df7-d2aa-4c95-9d5e-02426f51a1bd',
     name: 'Janssen'
+  },
+  {
+    id: 17.1,
+    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fmmgroup.svg?alt=media&token=56aaec8a-4752-45cb-b2eb-8436b3d8b317',
+    name: 'Markeing and Media'
   },
   {
     id: 17,
@@ -128,7 +133,7 @@ const partners = [
   },
   {
     id: 23,
-    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogoSparks.png?alt=media&token=0d3648a5-f310-4a9d-894d-ddb033894c62',
+    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fsparks.svg?alt=media&token=20569758-d72f-44a9-80be-d43a5c73a343',
     name: 'Sparks'
   },
   {

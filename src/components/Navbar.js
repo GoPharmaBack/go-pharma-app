@@ -44,7 +44,7 @@ function Navbar () {
     })
   }, [])
 
-  const Logo = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/Logo_GoPharma.png?alt=media&token=7a044cb4-fb09-4588-b43a-c45fc180351f'
+  const Logo = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/gopharma.png?alt=media&token=f4a41dfa-8d31-4f37-9a9c-c8f4d76e30f2'
   return (
     <nav id="navScr" className="navbar " data-aos="fade-in">
       <NavLink to="/" className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu}>
