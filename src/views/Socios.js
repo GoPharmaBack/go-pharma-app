@@ -133,31 +133,36 @@ const partners = [
   },
   {
     id: 23,
+    img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fsophia.png?alt=media&token=f8e3e01d-22d7-4584-b7db-9a20f45c7ec5',
+    name: 'Sophia'
+  },
+  {
+    id: 24,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2Fsparks.svg?alt=media&token=20569758-d72f-44a9-80be-d43a5c73a343',
     name: 'Sparks'
   },
   {
-    id: 24,
+    id: 25,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FTakeda.png?alt=media&token=39f1dada-193d-4865-bf52-1ecbf50f36ef',
     name: 'Takeda'
   },
   {
-    id: 25,
+    id: 26,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FLogoTeva_RGB.png?alt=media&token=ba247ea3-69c2-4582-90f6-d24923845bf2',
     name: 'Teva'
   },
   {
-    id: 26,
+    id: 27,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FUltraMedic.png?alt=media&token=0142c9a0-e53d-42cc-9469-990291ba046f',
     name: 'Ultra Medic'
   },
   {
-    id: 27,
+    id: 28,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/partners%2FultragenyxPH-.png?alt=media&token=247be36e-c771-444e-a31b-3aaa67c78eed',
     name: 'Ultragenyx'
   },
   {
-    id: 28,
+    id: 29,
     img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/werfen.svg?alt=media&token=85272827-cfe1-4c90-ae85-e7e7fbe8575f',
     name: 'Ultragenyx'
   }
@@ -186,16 +191,11 @@ export default function Socios () {
           className='mySwiper'>
           {partners.map((partner) => (
             <SwiperSlide key={partner.id} className='col-sm socio'>
-              <img
-                src={partner.img}
-                className='socioimg'
-                alt={partner.name}
-              />
+              <img src={partner.img} className='socioimg' alt={partner.name} />
             </SwiperSlide>
           ))}
         </Swiper>
       </section>
-
     </>
   )
 }
