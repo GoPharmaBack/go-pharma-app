@@ -134,15 +134,18 @@
 .nav-colored-solid {
   background-color: #350f61 !important;
   width: 100%;
-  padding: 0.5% 5%;
+  padding: 0.7% 5%;
   position: fixed;
   top: 0;
   height: 10vh;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 
-  .navbar_logo {
+  
+  .logo-nav {
     display: flex;
+    max-width: 70px !important;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
 
@@ -166,4 +169,6 @@
 .logo-nav {
   margin-top: 1vh;
   max-width: 100px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1);
 }

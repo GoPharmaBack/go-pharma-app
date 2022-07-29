@@ -11,7 +11,6 @@ import Contacto from '../views/Contacto'
 import Aviso from '../views/Aviso'
 import Sucess from '../views/Sucess'
 import Error from '../views/Error'
-import Fondo from '../views/Fondo'
 import Satelites from '../views/Satelites'
 
 const Wrapper = ({ children }) => {
@@ -26,9 +25,6 @@ function GeneralRouter () {
     <>
       <BrowserRouter>
         <Wrapper>
-          <Routes>
-            <Route path='/fondo' element={<Fondo />} />
-          </Routes>
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />

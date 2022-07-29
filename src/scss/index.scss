@@ -242,7 +242,7 @@ span {
 }
 
 .sociost {
-  margin-top: 10vh;
+  margin-top: 15vh;
   background-color: white;
   height: auto;
   max-height: 60vh;
@@ -1345,4 +1345,12 @@ ul {
 .swiper-pagination-bullet-active {
   opacity: 0.3;
   background: #6403db !important;
+}
+
+.contenedor-botones-lang {
+  display: flex;
+  li {
+    color: #d591fd;
+    padding: 0 0.3rem;
+  }
 }

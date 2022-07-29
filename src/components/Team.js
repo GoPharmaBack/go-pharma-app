@@ -30,22 +30,10 @@ function Team () {
       position: 'Finance Head '
     },
     {
-      id: 5,
-      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2File.png?alt=media&token=4b38bc26-46b4-4d80-9bed-2db6f4f54497',
-      name: 'Ileana Salcedo',
-      position: 'Mkt & Commercial Director'
-    },
-    {
       id: 6,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team23.png?alt=media&token=4504caaa-d686-42bb-b415-6e0ecc4234ec',
-      name: 'Marisol Molina Medina  ',
+      name: 'Marisol Molina Medina',
       position: 'MSL'
-    },
-    {
-      id: 7,
-      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fsel.png?alt=media&token=2300eb7b-cd13-4d2d-a7b8-91fcb4b90ccf',
-      name: 'Selene Meraz',
-      position: 'Pharma Designer Sr.'
     },
     {
       id: 8,
@@ -100,12 +88,6 @@ function Team () {
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Falfredo.png?alt=media&token=7150c587-b6ff-4778-88d6-d07d3bc81f61',
       name: 'Alfredo Victoria',
       position: 'Production Manager'
-    },
-    {
-      id: 17,
-      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team19.png?alt=media&token=7a2aa663-fa07-4b30-9018-331e73ca24f5',
-      name: 'Ricardo Perera',
-      position: 'SKIN DER Supply'
     },
     {
       id: 18,

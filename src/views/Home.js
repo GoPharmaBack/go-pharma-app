@@ -10,7 +10,7 @@ import 'aos/dist/aos.css' // You can also use <link> for styles
 import Socios from '../views/Socios'
 import Team from '../components/Team'
 import Filosofia from '../components/Filosofia'
-
+import { FormattedMessage } from 'react-intl'
 const Clay =
   'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2Fclay%402x.png?alt=media&token=847a0e52-0aae-4730-b2fc-f58f896961e1'
 // const PlanetaNube2 = 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/3d-elements%2FCloud%20%26%20Planet%2002.png?alt=media&token=da2433b1-41d7-4522-b3b9-9965276fce53'
@@ -34,7 +34,6 @@ function Home () {
       anchorPlacement: 'bottom-top'
     })
   }, [])
-
   return (
     <>
       <header data-aos='fade-in' className='App-header-hero'>
@@ -52,11 +51,24 @@ function Home () {
             Go Pharma<sup>®</sup>
           </h1>
           <h2 data-aos='fade-up'>
-            Somos una agencia de <span>CONSULTORÍA, MKT & MEDIA </span>
-            especializada en el mercado <span>PHARMA</span> y el sector{' '}
-            <span>SALUD. </span> Desarrollamos estrategias integradas desde
-            market research hasta la ejecución de la planeación, siempre
-            enfocados a <span>RESULTADOS.</span>
+            <FormattedMessage id='h2.somos' />{' '}
+            <span>
+              <FormattedMessage id='h2.tipo' />{' '}
+            </span>
+            <FormattedMessage id='h2.marca' />{' '}
+            <span>
+              <FormattedMessage id='h2.mercado' />
+            </span>{' '}
+            <FormattedMessage id='h2.conjuncion' />
+            <span>
+              {' '}
+              <FormattedMessage id='h2.helthcare' />{' '}
+             {' '}
+            </span>{' '}
+            <FormattedMessage id='h2.helthcareb' />
+            <FormattedMessage id='h2.punchline' />
+            <span><FormattedMessage id='h2.connect' /></span>
+            <FormattedMessage id='h2.connectb' />
           </h2>
         </div>
         <div className='contenedor container-3d' data-aos='fade-up'>

@@ -8,6 +8,7 @@ import './scss/index.scss'
 // import 'slick-carousel/slick/slick-theme.css'
 import GeneralRouter from './Routes/GeneralRouter'
 import DotRing from './components/dot/DotRing'
+import { LangProvider } from './context/LangContext'
 
 function App () {
   const particlesInit = (main) => {
@@ -539,7 +540,9 @@ function App () {
         />
       </section>
 
-      <GeneralRouter />
+      <LangProvider>
+        <GeneralRouter />
+      </LangProvider>
     </div>
   )
 }
