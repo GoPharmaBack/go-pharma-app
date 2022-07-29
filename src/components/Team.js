@@ -2,7 +2,7 @@ import React from 'react'
 
 // import * as FaIcons from "react-icons/fa";
 import 'aos/dist/aos.css'
-
+import { FormattedMessage } from 'react-intl'
 function Team () {
   const data = [
     {
@@ -105,19 +105,20 @@ function Team () {
               GO PHARMA<sup>®</sup> TEAM
             </h3>
             <p className='h2'>
-              Somos un equipo <span>INTERDISCIPLINARIO</span> formado en la
-              industria <span>PHARMA</span> en áreas como:{' '}
+              <FormattedMessage id='team.inicio' />
+              <span>INTERDISCIPLINARIO</span> formado en la industria
+              <span>PHARMA</span> en áreas como:
               <span>
                 MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO,
                 PUBLIC AFFAIRS, PROGRAMAS de PACIENTES, FARMACOECONOMÍA y
                 COMUNICACIÓN.
-              </span>{' '}
+              </span>
               Contamos con experiencia en manejo de productos de diversas áreas
-              terapéuticas:{' '}
+              terapéuticas:
               <span>
                 ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA,
                 DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,
-              </span>{' '}
+              </span>
               entre otras.
             </p>
           </div>

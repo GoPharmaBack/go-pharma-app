@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react'
-import LangEs from '../lang/es.json'
-import LangEn from '../lang/en.json'
+import LangEs from './lang/es.json'
+import LangEn from './lang/en.json'
 import { IntlProvider } from 'react-intl'
 const LangContext = createContext()
 
