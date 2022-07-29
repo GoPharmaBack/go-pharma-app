@@ -106,8 +106,8 @@ function Team () {
             </h3>
             <p className='h2'>
               <FormattedMessage id='team.inicio' />
-              <span>INTERDISCIPLINARIO</span> formado en la industria
-              <span>PHARMA</span> en áreas como:
+              <span>   <FormattedMessage id='team.interdisciplinario' /></span> <FormattedMessage id='team.formado' />
+              <span> <FormattedMessage id='team.pharma' /></span> <FormattedMessage id='team.areas' />
               <span>
                 MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO,
                 PUBLIC AFFAIRS, PROGRAMAS de PACIENTES, FARMACOECONOMÍA y
@@ -136,6 +136,7 @@ function Team () {
                 </div>
               </div>
             ))}
+
           </div>
         </div>
       </section>
