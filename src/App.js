@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Particles from 'react-tsparticles'
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,6 +15,12 @@ function App () {
     console.log(main)
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   }
+  const [idioma, setIdioma] = useState('es')
+  localStorage.setItem('lang', JSON.stringify(idioma))
+  useEffect(() => {
+    document.body.classList.add('loaded')
+    console.log('loaded', setIdioma)
+  }, [])
 
   const particlesLoaded = (container) => {
     console.log(container)

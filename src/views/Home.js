@@ -63,11 +63,12 @@ function Home () {
             <span>
               {' '}
               <FormattedMessage id='h2.helthcare' />{' '}
-             {' '}
             </span>{' '}
             <FormattedMessage id='h2.helthcareb' />
             <FormattedMessage id='h2.punchline' />
-            <span><FormattedMessage id='h2.connect' /></span>
+            <span>
+              <FormattedMessage id='h2.connect' />
+            </span>
             <FormattedMessage id='h2.connectb' />
           </h2>
         </div>
