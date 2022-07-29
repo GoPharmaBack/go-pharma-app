@@ -18,8 +18,8 @@ const LangProvider = ({ children }) => {
     } else if (lang === 'en') {
       mensajesPorDefecto = LangEn
     } else {
-      localePorDefecto = 'en'
-      mensajesPorDefecto = LangEn
+      localePorDefecto = 'es'
+      mensajesPorDefecto = LangEs
     }
   }
 
