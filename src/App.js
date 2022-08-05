@@ -12,7 +12,6 @@ import { LangProvider } from './context/LangContext'
 
 function App () {
   const particlesInit = (main) => {
-    console.log(JSON.stringify(main))
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
   }
   const [idioma, setIdioma] = useState('es')

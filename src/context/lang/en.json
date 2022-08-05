@@ -17,5 +17,12 @@
   "team.interdisciplinario":"INTERDISCIPLINARY",
   "team.formado":"team formed in the ",
   "team.pharma":" PHARMACEUTICAL",
-  "team.areas":"industry in areas such as:"
+  "team.areas":"industry in areas such as: ",
+  "team.mareas":"MEDICAL, MKT, SALES, DIGITAL, BUSINESS, INTELLIGENCE, ACCESS, PUBLIC AFFAIRS, PATIENT PROGRAMS, PHARMACOECONOMICS AND COMMUNICATION.",
+"team.exp":"We have experience managing products of the different therapeutic areas:",
+"team.deseases":"RARE DISEASES, NEUROLOGY, ONCOLOGY, RHEUMATOLOGY, DERMATOLOGY, MEDICAL DEVICES, PRIMARY CARE,",
+"team.otras":"among others.",
+"filosofia.nuestra":"OUR PHILOSOPHY",
+"socios.inicio":"Partners"
+
 }

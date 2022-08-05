@@ -7,6 +7,7 @@ import 'swiper/css'
 import 'swiper/css/grid'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
+import { FormattedMessage } from 'react-intl'
 
 // import required modules
 import { Autoplay, Grid, Pagination, Navigation } from 'swiper'
@@ -171,7 +172,8 @@ export default function Socios () {
   return (
     <>
       <section className='sociost'>
-        <h4>Socios Comerciales</h4>
+        <h4>              <FormattedMessage id='socios.inicio' />
+</h4>
         <Swiper
           slidesPerView={3}
           autoplay={{

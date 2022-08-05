@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
 function filosofia () {
   return (
@@ -6,7 +7,9 @@ function filosofia () {
       <section className='section filosofia' data-aos='fade-up'>
         <div className='container-fluid '>
           <div className='texto'>
-            <h3 data-aos='fade-up'>NUESTRA FILOSOFÍA</h3>
+            <h3 data-aos='fade-up'>
+              <FormattedMessage id='filosofia.nuestra' />
+            </h3>
             <h4 data-aos='fade-up'> PATIENT CENTRICITY </h4>
             <p className='amper' data-aos='fade-in'>
               &

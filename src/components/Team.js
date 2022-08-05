@@ -106,20 +106,23 @@ function Team () {
             </h3>
             <p className='h2'>
               <FormattedMessage id='team.inicio' />
-              <span>   <FormattedMessage id='team.interdisciplinario' /></span> <FormattedMessage id='team.formado' />
-              <span> <FormattedMessage id='team.pharma' /></span> <FormattedMessage id='team.areas' />
               <span>
-                MEDICAL, MKT, VENTAS, DIGITAL, BUSINESS INTELLIGENCE, ACCESO,
-                PUBLIC AFFAIRS, PROGRAMAS de PACIENTES, FARMACOECONOMÍA y
-                COMUNICACIÓN.
-              </span>
-              Contamos con experiencia en manejo de productos de diversas áreas
-              terapéuticas:
+                {' '}
+                <FormattedMessage id='team.interdisciplinario' />
+              </span>{' '}
+              <FormattedMessage id='team.formado' />
               <span>
-                ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA,
-                DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,
+                {' '}
+                <FormattedMessage id='team.pharma' />
+              </span>{' '}
+              <FormattedMessage id='team.areas' />
+              <span style={{ margin: '5px' }}>
+                <FormattedMessage id='team.mareas' />
               </span>
-              entre otras.
+              <FormattedMessage id='team.exp' />
+              <span style={{ margin: '5px' }}>
+              <FormattedMessage id='team.deseases' /></span>
+              <FormattedMessage id='team.otras' />
             </p>
           </div>
           <br />
@@ -136,7 +139,6 @@ function Team () {
                 </div>
               </div>
             ))}
-
           </div>
         </div>
       </section>
