@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import axios from 'axios'
+import { FormattedMessage } from 'react-intl'
 
 import 'aos/dist/aos.css'
 const Cohete =
@@ -63,7 +64,7 @@ class ContactForm extends Component {
 
     return (
       <section className='section contacto-section' data-aos='fade-in'>
-        <h1>Contacto</h1>
+        <h1><FormattedMessage id='contacto'/></h1>
         <div className='contenedor contact_form'>
           <img
             className='cohete-contacto'
@@ -88,14 +89,14 @@ class ContactForm extends Component {
           <div className='contenedor-form d-flex'>
             <div className='col'>
               <h2>
-                ¡Tienes un proyecto!
-                <br /> Conversemos
+                <FormattedMessage id='contacto.contacto' defaultMessage='¡Tienes un proyecto!' /><br />
+                <FormattedMessage id='contacto.contacto2' defaultMessage='Conversemos' />
               </h2>
               <p>
-                ¡Gracias por ponerse en contacto! <br />
-                Llena el formulario,
+               <FormattedMessage id='contacto.frase' defaultMessage='¡Gracias por ponerse en contacto!'/> <br />
+               <FormattedMessage id='contacto.frase2' defaultMessage='Llena el formulario,  '/> <br />
                 <br />
-                ¡que tengas un excelente día!
+                <FormattedMessage id='contacto.frase3' defaultMessage='¡que tengas un excelente día!  '/>
               </p>
             </div>
             <div className='col'>
