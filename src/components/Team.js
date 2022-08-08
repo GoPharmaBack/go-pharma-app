@@ -9,7 +9,7 @@ function Team () {
       id: 1,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team9.png?alt=media&token=697585e8-63ce-4857-bdc6-c99c40792f6d',
       name: 'Frank Valdez Tapia',
-      position: 'CEO'
+      position: 'General Manager'
     },
     {
       id: 2,
@@ -51,7 +51,7 @@ function Team () {
       id: 10,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team14.png?alt=media&token=c669c901-4dd2-49ec-936b-a8440f763a88',
       name: 'Diana Jiménez',
-      position: 'HR Director'
+      position: 'HR Head'
     },
     {
       id: 11,
@@ -69,7 +69,7 @@ function Team () {
       id: 13,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team1.png?alt=media&token=e3ad7729-f618-4501-bac4-4aae7132abd6',
       name: 'Christopher Chavira',
-      position: 'Mkt Coordinator Jr.'
+      position: 'Mkt Coordinator'
     },
     {
       id: 14,
@@ -87,7 +87,7 @@ function Team () {
       id: 16,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Falfredo.png?alt=media&token=7150c587-b6ff-4778-88d6-d07d3bc81f61',
       name: 'Alfredo Victoria',
-      position: 'Production Manager'
+      position: 'Video Production Manager'
     },
     {
       id: 18,
