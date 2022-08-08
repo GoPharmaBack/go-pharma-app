@@ -1252,7 +1252,10 @@ ul {
   text-align: left;
   justify-content: center;
   color: $app-3;
-
+  padding: 1rem;
+  h3 {
+    text-align: center;
+  }
   span {
     font-weight: bolder !important;
   }

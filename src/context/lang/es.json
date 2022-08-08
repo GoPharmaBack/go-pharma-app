@@ -30,5 +30,22 @@
   "horizontes.texto2": "nuevos horizontes.",
   "form.register": "Recibe nuestra señal hasta tu galaxia...",
   "footer.somos": "Somos una agencia de CONSULTORÍA, MKT & MEDIA especializada en el mercado PHARMA y el sector SALUD.",
-  "footer.desarrollamos": "Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a RESULTADOS."
+  "footer.desarrollamos": "Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a RESULTADOS.",
+  "footer.company": "Compañia",
+  "nosotros.texto":"Somos una agencia de ",
+  "nosotros.beneficios":"BENEFICIOS DE TRABAJAR CON NOSOTROS",
+"nosotros.mision":"MISIÓN",
+"nosotros.mision.des":"Desarrollamos estrategias personalizadas encaminadas a que nuestros clientes logren comunicar estratégicamente el valor de su producto o servicio para alcanzar sus metas y objetivos",
+"nuestra.experiancia":"NUESTRA EXPERIENCIA",
+"nuestra.experiancia1":"Contamos con experiencia en manejo de productos de diversas áreas terapéuticas: ", 
+"nuestra.experiancia2":"ENFERMEDADES RARAS, NEUROLOGÍA, ONCOLOGÍA, REUMATOLOGÍA, DERMATOLOGÍA, DISPOSITIVOS MÉDICOS, PRIMARY CARE,",
+"nuestra.experiancia3":" entre otras.",
+"nosotros.pilares":"NUESTROS PILARES",
+"nosotros.pilares.titulo":"Confianza",
+"nosotros.pilares.titulo.des":"Creamos vínculos basados en la credibilidad, confianza compromiso y vulnerabilidad.",
+"nosotros.pilares.titulo1":"Organización",
+"nosotros.pilares.titulo1.des":"Trabajamos en equipo cuidando al máximo cada detalle.",
+"nosotros.pilares.titulo2":"Constancia",
+"nosotros.pilares.titulo2.des":"Mantenemos el orden y constancia en todo momento."
+
 }

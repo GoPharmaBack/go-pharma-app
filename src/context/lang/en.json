@@ -29,5 +29,26 @@
   "horizontes.texto2": "new horizons.",
   "form.register": "Get our signal even in your galaxy…",
   "footer.somos": "We are a specialized MKT & MEDIA CONSULTING agency for the PHARMACEUTICAL market and HEALTHCARE sector. ",
-  "footer.desarrollamos": "We develop strategies that go from market research to execution of the strategic planning. Focusing on RESULTS at all times."
+  "footer.desarrollamos": "We develop strategies that go from market research to execution of the strategic planning. Focusing on RESULTS at all times.",
+  "footer.company": "Company",
+  "nosotros.texto":"We are a specialized ",
+  "nosotros.beneficios":"BENEFITS OF WORKING WITH US",
+"nosotros.mision":"MISSION",
+"nosotros.mision.des":"We develop customized strategies with the aim of guiding our clients to communicate strategically the value of their product or service in order to achieve their goals and objectives",
+"nuestra.experiancia":"OUR EXPERIENCE",
+"nuestra.experiancia1":"We have experience managing products of different therapeutic areas: ", 
+"nuestra.experiancia2":"RARE DISEASES, NEUROLOGY, ONCOLOGY, RHEUMATOLOGY, DERMATOLOGY, MEDICAL DEVICES, PRIMARY CARE,",
+"nuestra.experiancia3":" among others.",
+"nosotros.pilares":"OUR FOUNDATIONS",
+"nosotros.pilares.titulo":"CONFIDENCE",
+"nosotros.pilares.titulo.des":"We create bonds based on credibility, confidence, commitment and vulnerability.",
+
+
+"nosotros.pilares.titulo1":"ORGANIZATION",
+"nosotros.pilares.titulo1.des":"We work in teams paying maximum attention to each detail.",
+"nosotros.pilares.titulo2":"DETERMINATION",
+"nosotros.pilares.titulo2.des":"We keep order and determination at all times."
+
+
+
 }

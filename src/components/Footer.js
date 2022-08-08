@@ -110,28 +110,39 @@ const Footer = () => {
             </small>
             <br />
             <small>
-            <FormattedMessage id='footer.desarrollamos' />
-
+              <FormattedMessage id='footer.desarrollamos' />
             </small>
           </div>
 
           <div className='col-footer'>
-            <p className='titulo'>Compañía</p>
+            <p className='titulo'>
+              <FormattedMessage id='footer.company' />
+            </p>
             <ul>
               <li>
-                <Link to='/nosotros'><FormattedMessage id='nav.nosotros' /></Link>
+                <Link to='/nosotros'>
+                  <FormattedMessage id='nav.nosotros' />
+                </Link>
               </li>
               <li>
-                <Link to='/servicios'><FormattedMessage id='nav.servicios' /></Link>
+                <Link to='/servicios'>
+                  <FormattedMessage id='nav.servicios' />
+                </Link>
               </li>
               <li>
-                <Link to='/socios-comerciales'><FormattedMessage id='nav.socios' /></Link>
+                <Link to='/socios-comerciales'>
+                  <FormattedMessage id='nav.socios' />
+                </Link>
               </li>
               <li>
-                <Link to='/contacto'><FormattedMessage id='nav.contacto' /></Link>
+                <Link to='/contacto'>
+                  <FormattedMessage id='nav.contacto' />
+                </Link>
               </li>
               <li>
-                <Link to='/aviso-de-privacidad'><FormattedMessage id='nav.trabajadores' /></Link>
+                <Link to='/aviso-de-privacidad'>
+                  <FormattedMessage id='nav.trabajadores' />
+                </Link>
               </li>
               <div className='row'>
                 {' '}
