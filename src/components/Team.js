@@ -49,7 +49,7 @@ function Team () {
     },
     {
       id: 10,
-      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team14.png?alt=media&token=c669c901-4dd2-49ec-936b-a8440f763a88',
+      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fdiana-rhhead.png?alt=media&token=cc3e0371-86a2-45d0-87f1-21881bcb8eac',
       name: 'Diana Jiménez',
       position: 'HR Head'
     },
