@@ -12,6 +12,7 @@ import Aviso from '../views/Aviso'
 import Sucess from '../views/Sucess'
 import Error from '../views/Error'
 import Satelites from '../views/Satelites'
+import Noticias from '../views/Noticias'
 
 const Wrapper = ({ children }) => {
   const location = useLocation()
@@ -37,6 +38,7 @@ function GeneralRouter () {
             <Route path='/success' element={<Sucess />} />
             <Route path='/error' element={<Error />} />
             <Route path='/satelites' element={<Satelites />} />
+            <Route path='/noticias' element={<Noticias />} />
 
             {/* <Route path='*' element={<Error404 />} /> */}
           </Routes>

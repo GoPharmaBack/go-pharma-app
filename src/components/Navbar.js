@@ -63,6 +63,16 @@ function Navbar () {
           <FaIcons.FaHome />
         </NavLink>
         <NavLink
+          to='/noticias'
+          className={({ isActive }) => (isActive ? 'active-nav' : '')}
+          onClick={closeMobileMenu}>
+          <li>
+            {' '}
+            <FormattedMessage id='nav.noticias' />{' '}
+          </li>{' '}
+          {/* {dropdown && <Dropdown />} */}
+        </NavLink>
+        <NavLink
           to='/nosotros'
           className={({ isActive }) => (isActive ? 'active-nav' : '')}
           onClick={closeMobileMenu}>
