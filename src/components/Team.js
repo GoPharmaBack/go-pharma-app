@@ -59,12 +59,7 @@ function Team () {
       name: 'Karina Fonseca',
       position: 'Design Manager'
     },
-    {
-      id: 12,
-      img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team5.png?alt=media&token=c36759cb-2d46-4ae9-9769-b7ee46e70856',
-      name: 'Armando Boyzo',
-      position: 'Digital Manager'
-    },
+   
     {
       id: 13,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team1.png?alt=media&token=e3ad7729-f618-4501-bac4-4aae7132abd6',
