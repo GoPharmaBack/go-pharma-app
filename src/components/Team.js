@@ -59,7 +59,6 @@ function Team () {
       name: 'Karina Fonseca',
       position: 'Design Manager'
     },
-   
     {
       id: 13,
       img: 'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/team%2Fgp-team1.png?alt=media&token=e3ad7729-f618-4501-bac4-4aae7132abd6',
