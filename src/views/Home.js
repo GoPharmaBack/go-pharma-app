@@ -8,7 +8,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css' // You can also use <link> for styles
 
 import Socios from '../views/Socios'
-import Team from '../components/Team'
+// import Team from '../components/Team'
 import Filosofia from '../components/Filosofia'
 import { FormattedMessage } from 'react-intl'
 const Clay =
@@ -85,32 +85,7 @@ function Home () {
           </div> */}
         </div>
       </section>
-      <section data-aos='fade-up' className='section'>
-        <div className='contenedor' data-aos='fade-up'>
-          <div className='iframe-contenedor'>
-            <div style={{ padding: '75% 0 0 0', position: 'relative' }}>
-              <iframe
-                className='iframe-video'
-                src='https://player.vimeo.com/video/668322181?h=f15f9ccf67&badge=0&autopause=0&player_id=0&app_id=58479'
-                frameBorder={0}
-                allow='autoplay; fullscreen; picture-in-picture'
-                allowFullScreen
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  height: '100%'
-                }}
-                title='go-pharma presentacion'
-              />
-            </div>
-          </div>
 
-          <br />
-          <Team />
-        </div>
-      </section>
       <Filosofia />
       <Socios />
     </>

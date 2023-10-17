@@ -7,7 +7,7 @@ import { LangContext } from '../context/LangContext.js'
 // import Logo from "../../img/logo.png";
 import AOS from 'aos'
 import 'aos/dist/aos.css' // You can also use <link> for styles
-import emoji from 'react-easy-emoji'
+
 function Navbar () {
   const [click, setClick] = useState(false)
   const idioma = useContext(LangContext)
@@ -115,13 +115,13 @@ function Navbar () {
             <FaIcons.FaLinkedin />
           </li>
         </ExternalLink>
-        <div className='contenedor-botones-lang'>
-          <li onClick={() => idioma.establecerLenguaje('es')}>{emoji('🇲🇽')}</li>
+        <ul className='contenedor-botones-lang'>
+          <li onClick={() => idioma.establecerLenguaje('es')}>🇲🇽</li>
           <span>/</span>
           <li onClick={() => idioma.establecerLenguaje('en')}>
-            {emoji('🇺🇸 ')}
+          🇺🇸
           </li>
-        </div>
+        </ul>
       </ul>
       <div className='navbar-icon' onClick={handleClick}>
         {click ? <FaIcons.FaTimes /> : <FaIcons.FaBars />}
