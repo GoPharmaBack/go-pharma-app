@@ -6,6 +6,7 @@ import { FormattedMessage } from 'react-intl'
 import { LangContext } from '../context/LangContext.js'
 // import Logo from "../../img/logo.png";
 import AOS from 'aos'
+import Logo from '../img/logo.svg'
 import 'aos/dist/aos.css' // You can also use <link> for styles
 
 function Navbar () {
@@ -45,8 +46,6 @@ function Navbar () {
     })
   }, [])
 
-  const Logo =
-    'https://firebasestorage.googleapis.com/v0/b/go-pharma-website.appspot.com/o/gopharma.png?alt=media&token=f4a41dfa-8d31-4f37-9a9c-c8f4d76e30f2'
   return (
     <nav id='navScr' className='navbar ' data-aos='fade-in'>
       <NavLink

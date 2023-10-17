@@ -144,7 +144,7 @@
   
   .logo-nav {
     display: flex;
-    max-width: 70px !important;
+    height: auto;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 }
@@ -166,9 +166,4 @@
   }
 }
 
-.logo-nav {
-  margin-top: 1vh;
-  max-width: 100px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transform: scale(1);
-}
+
