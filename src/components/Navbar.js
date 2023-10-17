@@ -6,7 +6,7 @@ import { FormattedMessage } from 'react-intl'
 import { LangContext } from '../context/LangContext.js'
 // import Logo from "../../img/logo.png";
 import AOS from 'aos'
-import Logo from '../img/logo.svg'
+import Logo from '../img/logo-responsive.svg'
 import 'aos/dist/aos.css' // You can also use <link> for styles
 
 function Navbar () {
